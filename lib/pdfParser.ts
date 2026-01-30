@@ -10,7 +10,7 @@ interface ParsedQuestion {
 }
 
 export async function parsePdfText(text: string): Promise<ParsedQuestion[]> {
-  const questions: ParsedQuestion[] = [];
+  const questions: Omit<ParsedQuestion, 'id'>[] = [];
 
   // Split by exam sections
   const examASectionMatch = text.match(/Exam A([\s\S]*?)(?=Exam B|Drag Drop|$)/i);
