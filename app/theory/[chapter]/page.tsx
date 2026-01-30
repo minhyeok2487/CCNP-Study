@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useParams, useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import Sidebar from '@/components/Sidebar';
 import TheoryContent from '@/components/TheoryContent';
@@ -12,7 +12,6 @@ import { Chapter, Question } from '@/types';
 
 export default function ChapterPage() {
   const params = useParams();
-  const router = useRouter();
   const chapterId = parseInt(params.chapter as string);
 
   const [completedChapters, setCompletedChapters] = useState<number[]>([]);

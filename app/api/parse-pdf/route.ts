@@ -31,7 +31,7 @@ export async function POST(request: NextRequest) {
 
     // Read file content
     const bytes = await file.arrayBuffer();
-    const buffer = Buffer.from(bytes);
+    const _buffer = Buffer.from(bytes);
 
     // For server-side PDF parsing, you would use pdf-parse
     // This is a placeholder that shows the expected structure
@@ -62,6 +62,7 @@ export async function POST(request: NextRequest) {
 }
 
 // Helper function to parse text into questions
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function parseQuestionsFromText(text: string): ParsedQuestion[] {
   const questions: ParsedQuestion[] = [];
 

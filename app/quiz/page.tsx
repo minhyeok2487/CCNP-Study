@@ -28,7 +28,7 @@ function QuizContent() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, string | string[]>>({});
   const [showResult, setShowResult] = useState(false);
-  const [quizComplete, setQuizComplete] = useState(false);
+  const [, setQuizComplete] = useState(false);
 
   useEffect(() => {
     let selectedQuestions: Question[] = [];
@@ -36,7 +36,7 @@ function QuizContent() {
     if (mode === 'wrong') {
       const progress = getStudyProgress();
       const wrongIds = Object.entries(progress.questionsAnswered)
-        .filter(([_, data]) => !data.correct)
+        .filter(([, data]) => !data.correct)
         .map(([id]) => parseInt(id));
       selectedQuestions = (questions as Question[]).filter((q) =>
         wrongIds.includes(q.id)
