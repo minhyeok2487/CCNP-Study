@@ -1,0 +1,3248 @@
+[
+  {
+    "id": 1,
+    "examPart": "Exam A",
+    "question": "How does Cisco Trustsec enable more access controls for dynamic networking environments and data centers?",
+    "options": {
+      "A": "uses flexible NetFlow",
+      "B": "assigns a VLAN to the endpoint",
+      "C": "classifies traffic based on the contextual identity of the endpoint rather than its IP address",
+      "D": "classifies traffic based on advanced application recognition"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 2,
+    "examPart": "Exam A",
+    "question": "Which technology provides a secure communication channel for all traffic at Layer 2 of the OSI model?",
+    "options": {
+      "A": "MACsec",
+      "B": "IPsec",
+      "C": "SSL",
+      "D": "Cisco Trustsec"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 3,
+    "examPart": "Exam A",
+    "question": "What do Cisco DNA southbound APIs provide?",
+    "options": {
+      "A": "Interface between the controller and the network devices",
+      "B": "NETCONF API interface for orchestration communication",
+      "C": "RESTful API interface for orchestrator communication",
+      "D": "Interface between the controller and the consumer"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 4,
+    "examPart": "Exam A",
+    "question": "Which NGFW mode block flows crossing the firewall?",
+    "options": {
+      "A": "Passive",
+      "B": "Tap",
+      "C": "Inline tap",
+      "D": "Inline"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 5,
+    "examPart": "Exam A",
+    "question": "Which two pieces of information are necessary to compute SNR? (Choose two.)",
+    "options": {
+      "A": "EIRP",
+      "B": "noise floor",
+      "C": "antenna gain",
+      "D": "RSSI",
+      "E": "transmit power"
+    },
+    "correctAnswer": ["B", "E"],
+    "type": "multiple",
+    "category": "Wireless"
+  },
+  {
+    "id": 6,
+    "examPart": "Exam A",
+    "question": "Which requirement for an Ansible-managed node is true?",
+    "options": {
+      "A": "It must be a Linux server or a Cisco device.",
+      "B": "It must have an SSH server running.",
+      "C": "It must support ad hoc commands.",
+      "D": "It must have an Ansible Tower installed."
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Automation"
+  },
+  {
+    "id": 7,
+    "examPart": "Exam A",
+    "question": "What is the difference between the enable password and the enable secret password when password encryption is enabled on an IOS device?",
+    "options": {
+      "A": "The enable password is encrypted with a stronger encryption method.",
+      "B": "There is no difference and both passwords are encrypted identically.",
+      "C": "The enable password cannot be decrypted.",
+      "D": "The enable secret password is protected via stronger cryptography mechanisms."
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 8,
+    "examPart": "Exam A",
+    "question": "Which configuration establishes EBGP neighborship between two directly connected neighbors and exchanges the loopback network of the two routers through BGP?",
+    "options": {
+      "A": "Option A - Using physical interface IPs for neighbor",
+      "B": "Option B - Using loopback IPs for neighbor",
+      "C": "Option C - Using network 10.0.0.0 mask 255.0.0.0",
+      "D": "Option D - Using update-source Loopback0"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "BGP"
+  },
+  {
+    "id": 9,
+    "examPart": "Exam A",
+    "question": "In which part of the HTTP message is the content type specified?",
+    "options": {
+      "A": "HTTP method",
+      "B": "URI",
+      "C": "header",
+      "D": "body"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 10,
+    "examPart": "Exam A",
+    "question": "Which behavior can be expected when the HSRP version is changed from 1 to 2?",
+    "options": {
+      "A": "Each HSRP group reinitializes because the virtual MAC address has changed.",
+      "B": "No changes occur because version 1 and 2 use the same virtual MAC OUI.",
+      "C": "Each HSRP group reinitializes because the multicast address has changed.",
+      "D": "No changes occur because the standby router is upgraded before the active router."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "FHRP"
+  },
+  {
+    "id": 11,
+    "examPart": "Exam A",
+    "question": "A response code of 404 is received while using the REST API on Cisco DNA Center to POST to this URI: /dna/intent/api/v1/template-programmer/project. What does the code mean?",
+    "options": {
+      "A": "The client made a request to a resource that does not exist.",
+      "B": "The server has not implemented the functionality that is needed to fulfill the request.",
+      "C": "The request accepted for processing, but the processing was not completed.",
+      "D": "The POST/PUT request was fulfilled and a new resource was created."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 12,
+    "examPart": "Exam A",
+    "question": "What is the structure of a JSON web token?",
+    "options": {
+      "A": "three parts separated by dots: header, payload, and signature",
+      "B": "header and payload",
+      "C": "three parts separated by dots: version, header, and signature",
+      "D": "payload and signature"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 13,
+    "examPart": "Exam A",
+    "question": "Which OSPF networks types are compatible and allow communication through the two peering devices?",
+    "options": {
+      "A": "broadcast to nonbroadcast",
+      "B": "point-to-multipoint to nonbroadcast",
+      "C": "broadcast to point-to-point",
+      "D": "point-to-multipoint to broadcast"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "OSPF"
+  },
+  {
+    "id": 14,
+    "examPart": "Exam A",
+    "question": "At which Layer does Cisco DNA Center support REST controls?",
+    "options": {
+      "A": "EEM applets or scripts",
+      "B": "Session layer",
+      "C": "YAML output from responses to API calls",
+      "D": "Northbound APIs"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 15,
+    "examPart": "Exam A",
+    "question": "Which statement about agent-based versus agentless configuration management tools is true?",
+    "options": {
+      "A": "Agentless tools require no messaging systems between master and slaves.",
+      "B": "Agentless tools use proxy nodes to interface with slave nodes.",
+      "C": "Agent-based tools do not require a high-level language interpreter such as Python or Ruby on slave nodes.",
+      "D": "Agent-based tools do not require installation of additional software packages on the slave nodes."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Automation"
+  },
+  {
+    "id": 16,
+    "examPart": "Exam A",
+    "question": "Which PAgP mode combination prevents an EtherChannel from forming?",
+    "options": {
+      "A": "auto/auto",
+      "B": "desirable/desirable",
+      "C": "auto/desirable",
+      "D": "desirable"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "EtherChannel"
+  },
+  {
+    "id": 17,
+    "examPart": "Exam A",
+    "question": "In OSPF, which LSA type is responsible for pointing to the ASBR router?",
+    "options": {
+      "A": "type 1",
+      "B": "type 2",
+      "C": "type 3",
+      "D": "type 4"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "OSPF"
+  },
+  {
+    "id": 18,
+    "examPart": "Exam A",
+    "question": "A network administrator is implementing a routing configuration change and enables routing debugs to track routing behavior during the change. The logging output on the terminal is interrupting the command typing process. Which two actions can the network administrator take to minimize the possibility of typing commands incorrectly? (Choose two.)",
+    "options": {
+      "A": "Configure the logging synchronous global configuration command",
+      "B": "Configure the logging delimiter feature",
+      "C": "Configure the logging synchronous command under the vty",
+      "D": "Press the TAB key to reprint the command in a new line",
+      "E": "Increase the number of lines on the screen using the terminal length command"
+    },
+    "correctAnswer": ["A", "C"],
+    "type": "multiple",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 19,
+    "examPart": "Exam A",
+    "question": "Which two descriptions of FlexConnect mode for Cisco APs are true? (Choose two.)",
+    "options": {
+      "A": "APs that operate in FlexConnect mode cannot detect rogue APs.",
+      "B": "FlexConnect mode is used when the APs are set up in a mesh environment and used to bridge between each other.",
+      "C": "FlexConnect mode is a feature that is designed to allow specified CAPWAP-enabled APs to exclude themselves from managing data traffic between clients and infrastructure.",
+      "D": "When connected to the controller, FlexConnect APs can tunnel traffic back to the controller.",
+      "E": "FlexConnect mode is a wireless solution for branch office and remote office deployments."
+    },
+    "correctAnswer": ["D", "E"],
+    "type": "multiple",
+    "category": "Wireless"
+  },
+  {
+    "id": 20,
+    "examPart": "Exam A",
+    "question": "What are two common sources of interference for Wi-Fi networks? (Choose two.)",
+    "options": {
+      "A": "radar",
+      "B": "LED lights",
+      "C": "rogue AP",
+      "D": "conventional oven",
+      "E": "fire alarm"
+    },
+    "correctAnswer": ["B", "C"],
+    "type": "multiple",
+    "category": "Wireless"
+  },
+  {
+    "id": 21,
+    "examPart": "Exam A",
+    "question": "Which LISP infrastructure device provides connectivity between non-sites and LISP sites by receiving non-LISP traffic with a LISP site destination?",
+    "options": {
+      "A": "PETR",
+      "B": "PITR",
+      "C": "map resolver",
+      "D": "map server"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "LISP"
+  },
+  {
+    "id": 22,
+    "examPart": "Exam A",
+    "question": "Which protocol does REST API rely on to secure the communication channel?",
+    "options": {
+      "A": "TCP",
+      "B": "HTTPS",
+      "C": "SSH",
+      "D": "HTTP"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 23,
+    "examPart": "Exam A",
+    "question": "Which function does a fabric edge node perform in an SD-Access deployment?",
+    "options": {
+      "A": "Connects the SD-Access fabric to another fabric or external Layer 3 networks.",
+      "B": "Connects endpoints to the fabric and forwards their traffic.",
+      "C": "Provides reachability to border nodes in the fabric underlay.",
+      "D": "Encapsulates end-user data traffic into LISP."
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 24,
+    "examPart": "Exam A",
+    "question": "Which type of antenna do the radiation patterns present? (Refer to exhibit showing Antenna Azimuth and Elevation Plane Pattern)",
+    "options": {
+      "A": "Patch",
+      "B": "Omnidirectional",
+      "C": "Yagi",
+      "D": "Dipole"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 25,
+    "examPart": "Exam A",
+    "question": "Which statement about Cisco EAP-FAST is true?",
+    "options": {
+      "A": "It does not require a RADIUS server certificate",
+      "B": "It requires a client certificate",
+      "C": "It is an IETF standard.",
+      "D": "It operates in transparent mode"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 26,
+    "examPart": "Exam A",
+    "question": "When using TLS for syslog, which configuration allows for secure and reliable transportation of messages to its default port?",
+    "options": {
+      "A": "logging host 10.2.3.4 vrf mgmt transport tcp port 6514",
+      "B": "logging host 10.2.3.4 vrf mgmt transport udp port 6514",
+      "C": "logging host 10.2.3.4 vrf mgmt transport tcp port 514",
+      "D": "logging host 10.2.3.4 vrf mgmt transport udp port 514"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 27,
+    "examPart": "Exam A",
+    "question": "Which statement about the OSPF debug output is true when running 'debug ip ospf hello' and 'debug condition interface Fa0/1'?",
+    "options": {
+      "A": "The output displays all OSPF messages which router R1 has sent or received on interface Fa0/1.",
+      "B": "The output displays all OSPF messages which router R1 has sent or received on all interfaces.",
+      "C": "The output displays OSPF hello messages which router R1 has sent or received on interface Fa0/1.",
+      "D": "The output displays OSPF hello and LSACK messages which router R1 has sent or received."
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "OSPF"
+  },
+  {
+    "id": 28,
+    "examPart": "Exam A",
+    "question": "Which IP SLA operation requires the IP SLA responder to be configured on the remote end?",
+    "options": {
+      "A": "ICMP echo",
+      "B": "UDP jitter",
+      "C": "ICMP jitter",
+      "D": "TCP connect"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 29,
+    "examPart": "Exam A",
+    "question": "If a VRRP master router fails, which router is selected as the new master router?",
+    "options": {
+      "A": "router with the highest priority",
+      "B": "router with the highest loopback address",
+      "C": "router with the lowest loopback address",
+      "D": "router with the lowest priority"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "FHRP"
+  },
+  {
+    "id": 30,
+    "examPart": "Exam A",
+    "question": "Which description of an SD-Access wireless network infrastructure deployment is true?",
+    "options": {
+      "A": "The access point is part of the fabric underlay.",
+      "B": "The WLC is part of the fabric underlay.",
+      "C": "The access point is part of the fabric overlay.",
+      "D": "The wireless client is part of the fabric overlay."
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 31,
+    "examPart": "Exam A",
+    "question": "An engineer must block all traffic from a router to its directly connected subnet 209.165.200.0/24. The engineer applies access control list EGRESS in the outbound direction on the GigabitEthernet0/0 interface. However, the router can still ping hosts on the 209.165.200.0/24 subnet. Which explanation of this behavior is true?",
+    "options": {
+      "A": "Access control lists that are applied outbound to a router interface do not affect traffic that is sourced from the router.",
+      "B": "Only standard access control lists can block traffic from a source IP address.",
+      "C": "After an access control list is applied to an interface, that interface must be shut and no shut for the access control list to take effect.",
+      "D": "The access control list must contain an explicit deny to block traffic from the router."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 32,
+    "examPart": "Exam A",
+    "question": "The WLC administrator sees that the controller to which a roaming client associates has Mobility Role Anchor configured under Clients > Detail. Which type of roaming is supported?",
+    "options": {
+      "A": "Indirect",
+      "B": "Layer 3 intercontroller",
+      "C": "Layer 2 intercontroller",
+      "D": "Intercontroller"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 33,
+    "examPart": "Exam A",
+    "question": "A client device fails to see the enterprise SSID, but other devices are connected to it. What is the cause of this issue?",
+    "options": {
+      "A": "The hidden SSID was not manually configured on the client.",
+      "B": "The broadcast SSID was not manually configured on the client.",
+      "C": "The client has incorrect credentials stored for the configured hidden SSID.",
+      "D": "The client has incorrect credentials stored for the configured broadcast SSID."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 34,
+    "examPart": "Exam A",
+    "question": "A port channel is configured between SW2 and SW3. SW2 is not running a Cisco operating system. When all physical connections are made, the port channel does not establish. Based on the configuration excerpt of SW3 showing 'channel-group 30 mode desirable', what is the cause of the problem?",
+    "options": {
+      "A": "The port channel on SW2 is using an incompatible protocol.",
+      "B": "The port-channel trunk is not allowing the native VLAN.",
+      "C": "The port-channel should be set to auto.",
+      "D": "The port-channel interface load balance should be set to src-mac"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "EtherChannel"
+  },
+  {
+    "id": 35,
+    "examPart": "Exam A",
+    "question": "On which protocol or technology is the fabric data plane based in Cisco SD-Access fabric?",
+    "options": {
+      "A": "LISP",
+      "B": "IS-IS",
+      "C": "Cisco TrustSec",
+      "D": "VXLAN"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 36,
+    "examPart": "Exam A",
+    "question": "To increase total throughput and redundancy on the links between the wireless controller and switch, the customer enabled LAG on the wireless controller. Which EtherChannel mode must be configured on the switch to allow the WLC to connect?",
+    "options": {
+      "A": "Auto",
+      "B": "Active",
+      "C": "On",
+      "D": "Passive"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 37,
+    "examPart": "Exam A",
+    "question": "Which statement about Cisco Express Forwarding is true?",
+    "options": {
+      "A": "It uses a fast cache that is maintained in a router data plane.",
+      "B": "It maintains two tables in the data plane: the FIB and adjacency table.",
+      "C": "It makes forwarding decisions by a process that is scheduled through the IOS scheduler.",
+      "D": "The CPU of a router becomes directly involved with packet-switching decisions."
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Packet Forwarding"
+  },
+  {
+    "id": 38,
+    "examPart": "Exam A",
+    "question": "Based on interface configuration where R1 has 'ip ospf hello-interval 2' and R2 uses default settings, what is the expected state of OSPF adjacency?",
+    "options": {
+      "A": "Full on both routers",
+      "B": "not established",
+      "C": "2WAY/DROTHER on both routers",
+      "D": "FULL/BDR on R1 and FULL/BDR on R2"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "OSPF"
+  },
+  {
+    "id": 39,
+    "examPart": "Exam A",
+    "question": "Based on the configuration in this WLAN security setting showing WPA2 Policy-AES with PSK enabled, which method can a client use to authenticate to the network?",
+    "options": {
+      "A": "text string",
+      "B": "username and password",
+      "C": "certificate",
+      "D": "RADIUS token"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 40,
+    "examPart": "Exam A",
+    "question": "What is the JSON syntax that correctly represents: Name is Bob Johnson, Age is 75, Is alive, Favorite foods are Cereal, Mustard, Onions?",
+    "options": {
+      "A": "Name: Bob, Johnson, Age: 75, Alive: true, Favourite Foods. [Cereal, Mustard, Onions]",
+      "B": "Name, Bob Johnson, Age, 75, Alive, true, favourite Foods, [Cereal, Mustard, Onions]",
+      "C": "{'Name': 'Bob Johnson', 'Age': 75, 'Alive': true, 'favourite Foods': ['Cereal', 'Mustard', 'Onions']}",
+      "D": "Name. Bob Johnson, Age: Seventyfive, Alive true, favourite Foods ,[Cereal Mustard Onions]"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 41,
+    "examPart": "Exam A",
+    "question": "Which statement explains why Type 1 hypervisor is considered more efficient than Type 2 hypervisor?",
+    "options": {
+      "A": "Type 1 hypervisor runs directly on the physical hardware of the host machine without relying on the underlying OS.",
+      "B": "Type 1 hypervisor enables other operating systems to run on it.",
+      "C": "Type 1 hypervisor relies on the existing OS of the host machine to access CPU, memory, storage, and network resources.",
+      "D": "Type 1 hypervisor is the only type of hypervisor that supports hardware acceleration techniques."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Virtualization"
+  },
+  {
+    "id": 42,
+    "examPart": "Exam A",
+    "question": "An engineer configures a WLAN with fast transition enabled. Some legacy clients fail to connect to this WLAN. Which feature allows the legacy clients to connect while still allowing other clients to use fast transition based on their capabilities?",
+    "options": {
+      "A": "over the DS",
+      "B": "adaptive FT",
+      "C": "802.11v",
+      "D": "802.11k"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 43,
+    "examPart": "Exam A",
+    "question": "Which two methods are used by an AP that is trying to discover a wireless LAN controller? (Choose two.)",
+    "options": {
+      "A": "Cisco Discovery Protocol neighbor",
+      "B": "broadcasting on the local subnet",
+      "C": "DNS lookup cisco-DNA-PRIMARY.localdomain",
+      "D": "DHCP Option 43",
+      "E": "querying other APs"
+    },
+    "correctAnswer": ["B", "D"],
+    "type": "multiple",
+    "category": "Wireless"
+  },
+  {
+    "id": 44,
+    "examPart": "Exam A",
+    "question": "Which statement about a fabric access point is true?",
+    "options": {
+      "A": "It is in local mode and must be connected directly to the fabric border node.",
+      "B": "It is in FlexConnect mode and must be connected directly to the fabric border node.",
+      "C": "It is in local mode and must be connected directly to the fabric edge switch.",
+      "D": "It is in FlexConnect mode and must be connected directly to the fabric edge switch."
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 45,
+    "examPart": "Exam A",
+    "question": "SwitchC connects HR and Sales to the Core switch. However, business needs require that no traffic from the Finance VLAN traverse this switch. VTP is in transparent mode. Which command meets this requirement?",
+    "options": {
+      "A": "vtp pruning",
+      "B": "vtp pruning vlan 110",
+      "C": "switchport trunk allowed vlan add 210,310",
+      "D": "switchport trunk allowed vlan remove 110"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Switching"
+  },
+  {
+    "id": 46,
+    "examPart": "Exam A",
+    "question": "Which TCP setting is tuned to minimize the risk of fragmentation on a GRE/IP tunnel?",
+    "options": {
+      "A": "MTU",
+      "B": "Window size",
+      "C": "MRU",
+      "D": "MSS"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "VRF, GRE, and IPsec"
+  },
+  {
+    "id": 47,
+    "examPart": "Exam A",
+    "question": "Which QoS component alters a packet to change the way that traffic is treated in the network?",
+    "options": {
+      "A": "Marking",
+      "B": "Classification",
+      "C": "Shaping",
+      "D": "Policing"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "QoS"
+  },
+  {
+    "id": 48,
+    "examPart": "Exam A",
+    "question": "Which statement about TLS is true when using RESTCONF to write configurations on network devices?",
+    "options": {
+      "A": "It is provided using NGINX acting as a proxy web server.",
+      "B": "It is not supported on Cisco devices.",
+      "C": "It requires certificates for authentication.",
+      "D": "It is used for HTTP and HTTPS requests."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 49,
+    "examPart": "Exam A",
+    "question": "Which access control list allows only TCP traffic with a destination port range of 22-443, excluding port 80?",
+    "options": {
+      "A": "Deny tcp any any eq 80 / Permit tcp any any gt 21 lt 444",
+      "B": "Permit tcp any any ne 80",
+      "C": "Permit tcp any any range 22 443 / Deny tcp any any eq 80",
+      "D": "Deny tcp any any ne 80 / Permit tcp any any range 22 443"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 50,
+    "examPart": "Exam A",
+    "question": "VLANs 50 and 60 exist on the trunk links between all switches. All access ports on SW3 are configured for VLAN 50 and SW1 is the VTP server. Which command ensures that SW3 receives frames only from VLAN 50?",
+    "options": {
+      "A": "SW1(config)#vtp pruning",
+      "B": "SW3(config)#vtp mode transparent",
+      "C": "SW2(config)#vtp pruning",
+      "D": "SW1(config)#vtp mode transparent"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Switching"
+  },
+  {
+    "id": 51,
+    "examPart": "Exam A",
+    "question": "Which statement about VXLAN is true?",
+    "options": {
+      "A": "VXLAN uses TCP as the transport protocol over the physical data center network.",
+      "B": "VXLAN extends the Layer 2 Segment ID field to 24-bits, which allows up to 4094 unique Layer 2 segments over the same network.",
+      "C": "VXLAN encapsulates a Layer 2 frame in an IP-UDP header, which allows Layer 2 adjacency across router boundaries.",
+      "D": "VXLAN uses the Spanning Tree Protocol for loop prevention."
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "VXLAN"
+  },
+  {
+    "id": 52,
+    "examPart": "Exam A",
+    "question": "What are two effects of this NAT configuration: 'access-list 1 permit 10.1.1.0 0.0.0.31 / ip nat pool cisco 209.165.201.1 209.165.201.30 netmask 255.255.255.224 / ip nat inside source list 1 pool CISCO'? (Choose two.)",
+    "options": {
+      "A": "Inside source addresses are translated to the 209.165.201.0/27 subnet.",
+      "B": "It establishes a one-to-one NAT translation.",
+      "C": "The 10.1.1.0/27 subnet is assigned as the inside global address range.",
+      "D": "The 209.165.201.0/27 subnet is assigned as the outside local address range.",
+      "E": "The 10.1.1.0/27 subnet is assigned as the inside local addresses."
+    },
+    "correctAnswer": ["A", "E"],
+    "type": "multiple",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 53,
+    "examPart": "Exam A",
+    "question": "Which feature does Cisco TrustSec use to provide scalable, secure communication throughout a network?",
+    "options": {
+      "A": "security group tag ACL assigned to each port on a switch",
+      "B": "security group tag number assigned to each port on a network",
+      "C": "security group tag number assigned to each user on a switch",
+      "D": "security group tag ACL assigned to each router on a network"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 54,
+    "examPart": "Exam A",
+    "question": "What is the correct EBGP path attribute list, ordered from most preferred to the least preferred, that the BGP best-path algorithm uses?",
+    "options": {
+      "A": "weight, AS path, local preference, MED",
+      "B": "weight, local preference, AS path, MED",
+      "C": "local preference, weight, AS path, MED",
+      "D": "local preference, weight, MED, AS path"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "BGP"
+  },
+  {
+    "id": 55,
+    "examPart": "Exam A",
+    "question": "Which two GRE features are configured to prevent fragmentation? (Choose two.)",
+    "options": {
+      "A": "TCP window size",
+      "B": "TCP MSS",
+      "C": "IP MTU",
+      "D": "DF bit clear",
+      "E": "MTU ignore"
+    },
+    "correctAnswer": ["B", "C"],
+    "type": "multiple",
+    "category": "VRF, GRE, and IPsec"
+  },
+  {
+    "id": 56,
+    "examPart": "Exam A",
+    "question": "Which JSON syntax is valid?",
+    "options": {
+      "A": "{\"switch\": \"name\": \"dist1\", \"interfaces\": [\"gig1\", \"gig2\", \"gig3\"]}",
+      "B": "{/\"switch\"/: {/\"name\"/: \"dist1\", /\"interfaces\"/: [\"gig1\", \"gig2\", \"gig3\"]}}",
+      "C": "{\"switch\": {\"name\": \"dist1\", \"interfaces\": [\"gig1\", \"gig2\", \"gig3\"]}}",
+      "D": "{'switch': ('name': 'dist1', 'interfaces': ['gig1', 'gig2', 'gig3'])}"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 57,
+    "examPart": "Exam A",
+    "question": "Which First Hop Redundancy Protocol maximizes uplink utilization and minimizes the amount of configuration that is necessary?",
+    "options": {
+      "A": "GLBP",
+      "B": "HSRP v2",
+      "C": "VRRP",
+      "D": "HSRP v1"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "FHRP"
+  },
+  {
+    "id": 58,
+    "examPart": "Exam A",
+    "question": "Which statements are used for error handling in Python?",
+    "options": {
+      "A": "try/catch",
+      "B": "try/except",
+      "C": "block/rescue",
+      "D": "catch/release"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 59,
+    "examPart": "Exam A",
+    "question": "Assuming that R1 is a CE router connected to R2 (which has VPN_A on Gi0/0 and VPN_B on Gi0/1), which VRF is assigned to Gi0/0 on R1?",
+    "options": {
+      "A": "VRF VPN_B",
+      "B": "Default VRF",
+      "C": "Management VRF",
+      "D": "VRF VPN_A"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "VRF, GRE, and IPsec"
+  },
+  {
+    "id": 60,
+    "examPart": "Exam A",
+    "question": "A local router shows an EBGP neighbor in the Active state. Which statement is true about the local router?",
+    "options": {
+      "A": "The local router has active prefix in the forwarding table from the neighboring router.",
+      "B": "The local router has BGP passive mode configured for the neighboring router.",
+      "C": "The local router is attempting to open a TCP session with the neighboring router.",
+      "D": "The local router is receiving prefixes from the neighboring router and adding them in RIB-IN."
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "BGP"
+  },
+  {
+    "id": 61,
+    "examPart": "Exam A",
+    "question": "Which standard access control entry permits from odd-numbered hosts in the 10.0.0.0/24 subnet?",
+    "options": {
+      "A": "Permit 10.0.0.0 0.0.0.1",
+      "B": "Permit 10.0.0.1 0.0.0.0",
+      "C": "Permit 10.0.0.1 0.0.0.254",
+      "D": "Permit 10.0.0.0 255.255.255.254"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 62,
+    "examPart": "Exam A",
+    "question": "Which feature must be configured to allow packet capture over Layer 3 infrastructure?",
+    "options": {
+      "A": "VSPAN",
+      "B": "IPSPAN",
+      "C": "RSPAN",
+      "D": "ERSPAN"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 63,
+    "examPart": "Exam A",
+    "question": "Which method displays text directly into the active console with a synchronous EEM applet policy?",
+    "options": {
+      "A": "event manager applet boom / event syslog pattern 'UP' / action 1.0 gets 'logging directly to console'",
+      "B": "event manager applet boom / event syslog pattern 'UP' / action 1.0 syslog priority direct msg 'log directly to console'",
+      "C": "event manager applet boom / event syslog pattern 'UP' / action 1.0 puts 'logging directly to console'",
+      "D": "event manager applet boom / event syslog pattern 'UP' / action 1.0 string 'logging directly to console'"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Automation"
+  },
+  {
+    "id": 64,
+    "examPart": "Exam A",
+    "question": "A network is being migrated from IPv4 to IPv6 using a dual-stack approach. Network management is already 100% IPv6 enabled. In a dual-stack network with two dual-stack NetFlow collectors, how many flow exporters are needed per network device in the flexible NetFlow configuration?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "8"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 65,
+    "examPart": "Exam A",
+    "question": "Which privilege level is assigned to VTY users when the configuration shows 'line vty 0 4 / password 7 045802150C2E / login' without explicit privilege level setting?",
+    "options": {
+      "A": "1",
+      "B": "7",
+      "C": "13",
+      "D": "15"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 66,
+    "examPart": "Exam A",
+    "question": "What is a benefit of deploying an on-premises infrastructure versus a cloud infrastructure deployment?",
+    "options": {
+      "A": "faster deployment times because additional infrastructure does not need to be purchased",
+      "B": "lower latency between systems that are physically located near each other",
+      "C": "less power and cooling resources needed to run infrastructure on-premises",
+      "D": "ability to quickly increase compute power without the need to install additional hardware"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 67,
+    "examPart": "Exam A",
+    "question": "Which statement about route targets is true when using VRF-Lite?",
+    "options": {
+      "A": "When BGP is configured, route targets are transmitted as BGP standard communities.",
+      "B": "Route targets control the import and export of routes into a customer routing table.",
+      "C": "Route targets allow customers to be assigned overlapping addresses.",
+      "D": "Route targets uniquely identify the customer routing table."
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "VRF, GRE, and IPsec"
+  },
+  {
+    "id": 68,
+    "examPart": "Exam A",
+    "question": "A customer has several small branches and wants to deploy a Wi-Fi solution with local management using CAPWAP. Which deployment model meets this requirement?",
+    "options": {
+      "A": "Autonomous",
+      "B": "Mobility Express",
+      "C": "SD-Access wireless",
+      "D": "Local mode"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 69,
+    "examPart": "Exam A",
+    "question": "Which statement about an RSPAN session configuration is true?",
+    "options": {
+      "A": "A filter must be configured for RSPAN sessions.",
+      "B": "Only one session can be configured at a time.",
+      "C": "A special VLAN type must be used as the RSPAN destination.",
+      "D": "Only incoming traffic can be monitored."
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 70,
+    "examPart": "Exam A",
+    "question": "Which action is the vSmart controller responsible for in an SD-WAN deployment?",
+    "options": {
+      "A": "onboard vEdge nodes into the SD-WAN fabric",
+      "B": "distribute security information for tunnel establishment between vEdge routers",
+      "C": "manage, maintain, and gather configuration and status for nodes within the SD-WAN fabric",
+      "D": "gather telemetry data from vEdge routers"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "SD-WAN"
+  },
+  {
+    "id": 71,
+    "examPart": "Exam A",
+    "question": "Which statement about multicast RPs is true?",
+    "options": {
+      "A": "RPs are required only when using protocol independent multicast dense mode.",
+      "B": "RPs are required for protocol independent multicast sparse mode and dense mode.",
+      "C": "By default, the RP is needed periodically to maintain sessions with sources and receivers.",
+      "D": "By default, the RP is needed only to start new sessions with sources and receivers."
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Multicast"
+  },
+  {
+    "id": 72,
+    "examPart": "Exam A",
+    "question": "Which LISP device is responsible for publishing EID-to-RLOC mappings for a site?",
+    "options": {
+      "A": "ETR",
+      "B": "MS",
+      "C": "ITR",
+      "D": "MR"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "LISP"
+  },
+  {
+    "id": 73,
+    "examPart": "Exam A",
+    "question": "What is a benefit of data modeling languages like YANG?",
+    "options": {
+      "A": "They enable programmers to change or write their own application within the device operating system.",
+      "B": "They create more secure and efficient SNMP OIDs.",
+      "C": "They make the CLI simpler and more efficient.",
+      "D": "They provide a standardized data structure, which results in configuration scalability and consistency."
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 74,
+    "examPart": "Exam A",
+    "question": "Which HTTP status code is the correct response for a request with an incorrect password applied to a REST API session?",
+    "options": {
+      "A": "HTTP Status Code 200",
+      "B": "HTTP Status Code 302",
+      "C": "HTTP Status Code 401",
+      "D": "HTTP Status Code 504"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 75,
+    "examPart": "Exam A",
+    "question": "What is the difference between a RIB and a FIB?",
+    "options": {
+      "A": "The RIB is used to make IP source prefix-based switching decisions.",
+      "B": "The FIB is where all IP routing information is stored.",
+      "C": "The RIB maintains a mirror image of the FIB.",
+      "D": "The FIB is populated based on RIB content."
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Packet Forwarding"
+  },
+  {
+    "id": 76,
+    "examPart": "Exam A",
+    "question": "An engineer must modify the access control list EGRESS to allow all IP traffic from subnet 10.1.10.0/24 to 10.1.2.0/24. The access control list is applied in the outbound direction. Which configuration commands allow this traffic without disrupting existing traffic flows?",
+    "options": {
+      "A": "ip access-list extended EGRESS / permit ip 10.1.10.0 255.255.255.0 10.1.2.0 255.255.255.0",
+      "B": "ip access-list extended EGRESS / 5 permit ip 10.1.10.0 0.0.0.255 10.1.2.0 0.0.0.255",
+      "C": "Create new ACL EGRESS2 with all rules and replace on interface",
+      "D": "ip access-list extended EGRESS / permit ip 10.1.10.0 0.0.0.255 10.1.2.0 0.0.0.255"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 77,
+    "examPart": "Exam A",
+    "question": "The login method is configured on the VTY lines of a router with these parameters: The first method for authentication is TACACS. If TACACS is unavailable, login is allowed without any provided credentials. Which configuration accomplishes this task?",
+    "options": {
+      "A": "aaa authentication login VTY group tacacs+ none with password on vty",
+      "B": "aaa authentication login default group tacacs+ with transport input none",
+      "C": "aaa authentication login default group tacacs+ none with password on vty",
+      "D": "aaa authentication login telnet group tacacs+ none without username"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 78,
+    "examPart": "Exam A",
+    "question": "Which two steps are required for a complete Cisco DNA Center upgrade? (Choose two.)",
+    "options": {
+      "A": "golden image selection",
+      "B": "automation backup",
+      "C": "proxy configuration",
+      "D": "application updates",
+      "E": "system update"
+    },
+    "correctAnswer": ["B", "E"],
+    "type": "multiple",
+    "category": "SD-Access"
+  },
+  {
+    "id": 79,
+    "examPart": "Exam A",
+    "question": "An engineer is configuring local web authentication on a WLAN. The engineer chooses the Authentication radio button under the Layer 3 Security options for Web Policy. Which device presents the web authentication for the WLAN?",
+    "options": {
+      "A": "ISE server",
+      "B": "local WLC",
+      "C": "RADIUS server",
+      "D": "anchor WLC"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 80,
+    "examPart": "Exam A",
+    "question": "When configuring WPA2 Enterprise on a WLAN, which additional security component configuration is required?",
+    "options": {
+      "A": "NTP server",
+      "B": "PKI server",
+      "C": "RADIUS server",
+      "D": "TACACS server"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 81,
+    "examPart": "Exam A",
+    "question": "What reason could cause an OSPF neighborship to be in the EXSTART/EXCHANGE state?",
+    "options": {
+      "A": "Mismatched OSPF network type",
+      "B": "Mismatched areas",
+      "C": "Mismatched MTU size",
+      "D": "Mismatched OSPF link costs"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "OSPF"
+  },
+  {
+    "id": 82,
+    "examPart": "Exam A",
+    "question": "Which IP address becomes the next active next hop for 192.168.102.0/24 when 192.168.101.2 fails, based on BGP table showing multiple paths with different weights?",
+    "options": {
+      "A": "192.168.101.18",
+      "B": "192.168.101.6",
+      "C": "192.168.101.10",
+      "D": "192.168.101.14"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "BGP"
+  },
+  {
+    "id": 83,
+    "examPart": "Exam A",
+    "question": "What is the logging severity level shown in this output: R1#Feb 14 37:15:12:429: %LINEPROTO-5-UPDOWN Line protocol on interface GigabitEthernet0/1. Change state to up?",
+    "options": {
+      "A": "Notification",
+      "B": "Alert",
+      "C": "Critical",
+      "D": "Emergency"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 84,
+    "examPart": "Exam A",
+    "question": "Which statement describes the IP and MAC allocation requirements for virtual machines on Type 1 hypervisors?",
+    "options": {
+      "A": "Each virtual machine requires a unique IP and MAC addresses to be able to reach other nodes.",
+      "B": "Each virtual machine requires a unique IP address but shares the MAC address with the physical server.",
+      "C": "Each virtual machine requires a unique IP address but shares the MAC address with the address of the physical server.",
+      "D": "Each virtual machine requires a unique MAC address but shares the IP address with the physical server."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Virtualization"
+  },
+  {
+    "id": 85,
+    "examPart": "Exam A",
+    "question": "Which HTTP JSON response does the Python code output give when accessing 'kickstart_ver_str' but the JSON response contains 'kickstart_ver_str' without matching key?",
+    "options": {
+      "A": "NameError: name 'json' is not defined",
+      "B": "KeyError 'kickstart_ver_str'",
+      "C": "7.61",
+      "D": "7.0(3)I7(4)"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 86,
+    "examPart": "Exam A",
+    "question": "Which controller is the single plane of management for Cisco SD-WAN?",
+    "options": {
+      "A": "vBond",
+      "B": "vEdge",
+      "C": "vSmart",
+      "D": "vManage"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "SD-WAN"
+  },
+  {
+    "id": 87,
+    "examPart": "Exam A",
+    "question": "What does this EEM applet event accomplish: 'event snmp oid 1.3.6.1.3.7.1.5.1.2.4.2.9 get-type next entry-op gt entry-val 75 poll-interval 5'?",
+    "options": {
+      "A": "It issues email when the value is greater than 75% for five polling cycles.",
+      "B": "It reads an SNMP variable, and when the value exceeds 75%, it triggers an action.",
+      "C": "It presents a SNMP variable that can be interrogated.",
+      "D": "Upon the value reaching 75%, a SNMP event is generated and sent to the trap server."
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Automation"
+  },
+  {
+    "id": 88,
+    "examPart": "Exam A",
+    "question": "Which two operations are valid for RESTCONF? (Choose two.)",
+    "options": {
+      "A": "HEAD",
+      "B": "REMOVE",
+      "C": "PULL",
+      "D": "PATCH",
+      "E": "ADD",
+      "F": "PUSH"
+    },
+    "correctAnswer": ["A", "D"],
+    "type": "multiple",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 89,
+    "examPart": "Exam A",
+    "question": "What are two benefits of virtualizing the server with the use of VMs in data center environments? (Choose two.)",
+    "options": {
+      "A": "Increased security",
+      "B": "reduced rack space, power, and cooling requirements",
+      "C": "reduced IP and MAC address requirements",
+      "D": "speedy deployment",
+      "E": "smaller Layer 2 domain"
+    },
+    "correctAnswer": ["B", "D"],
+    "type": "multiple",
+    "category": "Virtualization"
+  },
+  {
+    "id": 90,
+    "examPart": "Exam A",
+    "question": "Which exhibit displays a valid JSON file?",
+    "options": {
+      "A": "{\"hostname\": \"edge_router_1\" \"interfaces\": {\"GigabitEthernet 1/1\" \"GigabitEthernet 1/2\" \"GigabitEthernet 1/3\"}}",
+      "B": "{\"hostname\": \"edge_router_1\", \"interfaces\": {\"GigabitEthernet 1/1\", \"GigabitEthernet 1/2\", \"GigabitEthernet 1/3\"},}",
+      "C": "{\"hostname\": \"edge_router_1\" \"interfaces\": [\"GigabitEthernet 1/1\" \"GigabitEthernet 1/2\" \"GigabitEthernet 1/3\"]}",
+      "D": "{\"hostname\": \"edge_router_1\", \"interfaces\": [\"GigabitEthernet 1/1\", \"GigabitEthernet 1/2\", \"GigabitEthernet 1/3\"]}"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 91,
+    "examPart": "Exam A",
+    "question": "Which two protocols are used with YANG data models? (Choose two.)",
+    "options": {
+      "A": "HTTPS",
+      "B": "SSH",
+      "C": "RESTCONF",
+      "D": "TLS",
+      "E": "NETCONF"
+    },
+    "correctAnswer": ["C", "E"],
+    "type": "multiple",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 92,
+    "examPart": "Exam A",
+    "question": "Which method creates an EEM applet policy that is registered with EEM and runs on demand or manually?",
+    "options": {
+      "A": "event manager applet ondemand / event register / action 1.0 syslog priority critical msg 'This is a message from ondemand'",
+      "B": "event manager applet ondemand / event manual / action 1.0 syslog priority critical msg 'This is a message from ondemand'",
+      "C": "event manager applet ondemand / event none / action 1.0 syslog priority critical msg 'This is a message from ondemand'",
+      "D": "event manager applet ondemand / action 1.0 syslog priority critical msg 'This is a message from ondemand'"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Automation"
+  },
+  {
+    "id": 93,
+    "examPart": "Exam A",
+    "question": "Which feature is supported by EIGRP but is not supported by OSPF?",
+    "options": {
+      "A": "route summarization",
+      "B": "equal-cost load balancing",
+      "C": "unequal-cost load balancing",
+      "D": "route filtering"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "EIGRP"
+  },
+  {
+    "id": 94,
+    "examPart": "Exam A",
+    "question": "Link1 is a copper connection and Link2 is a fiber connection. The fiber port must be the primary port for all forwarding. The output of the show spanning-tree command on SW2 shows that the fiber port is blocked by spanning tree. An engineer enters the spanning-tree port-priority 32 command on G0/1 on SW2, but the port remains blocked. Which command should be entered on the ports connected to Link2 to resolve the issue?",
+    "options": {
+      "A": "Enter spanning-tree port-priority 32 on SW1.",
+      "B": "Enter spanning-tree port-priority 224 on SW1.",
+      "C": "Enter spanning-tree port-priority 4 on SW2.",
+      "D": "Enter spanning-tree port-priority 64 on SW2."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Spanning Tree Protocol"
+  },
+  {
+    "id": 95,
+    "examPart": "Exam A",
+    "question": "What is the role of a fusion router in an SD-Access solution?",
+    "options": {
+      "A": "provides connectivity to external networks",
+      "B": "acts as a DNS server",
+      "C": "performs route leaking between user-defined virtual networks and shared services",
+      "D": "provides additional forwarding capacity to the fabric"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 96,
+    "examPart": "Exam A",
+    "question": "Which method does the enable secret password option use to encrypt device passwords?",
+    "options": {
+      "A": "AES",
+      "B": "CHAP",
+      "C": "PAP",
+      "D": "MD5"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 97,
+    "examPart": "Exam A",
+    "question": "Which two mechanisms are available to secure NTP? (Choose two.)",
+    "options": {
+      "A": "IP prefix list-based",
+      "B": "IPsec",
+      "C": "TACACS-based authentication",
+      "D": "IP access list-based",
+      "E": "Encrypted authentication"
+    },
+    "correctAnswer": ["D", "E"],
+    "type": "multiple",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 98,
+    "examPart": "Exam A",
+    "question": "Which DNS lookup does an access point perform when attempting CAPWAP discovery?",
+    "options": {
+      "A": "CISCO-DNA-CONTROLLER.local",
+      "B": "CAPWAP-CONTROLLER.local",
+      "C": "CISCO-CONTROLLER.local",
+      "D": "CISCO-CAPWAP-CONTROLLER.local"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 99,
+    "examPart": "Exam A",
+    "question": "A client with IP address 209.165.201.25 must access a web server on port 80 at 209.165.200.225. To allow this traffic, an engineer must add a statement to an access control list that is applied in the inbound direction on the port connecting to the web server. Which statement allows this traffic?",
+    "options": {
+      "A": "permit tcp host 209.165.200.225 eq 80 host 209.165.201.25",
+      "B": "permit tcp host 209.165.201.25 host 209.165.200.225 eq 80",
+      "C": "permit tcp host 209.165.200.225 lt 80 host 209.165.201.25",
+      "D": "permit tcp host 209.165.200.225 host 209.165.201.25 eq 80"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 100,
+    "examPart": "Exam A",
+    "question": "You are configuring a controller that runs Cisco IOS XE by using the CLI. Which three configuration options are used for 802.11w Protected Management Frames? (Choose three.)",
+    "options": {
+      "A": "mandatory",
+      "B": "association-comeback",
+      "C": "SA teardown protection",
+      "D": "saquery-retry-time",
+      "E": "enable",
+      "F": "comeback-time"
+    },
+    "correctAnswer": ["A", "B", "D"],
+    "type": "multiple",
+    "category": "Wireless"
+  },
+  {
+    "id": 101,
+    "examPart": "Exam A",
+    "question": "An engineer is designing a guest portal on Cisco ISE using the default configuration. During the testing phase, the engineer receives a warning 'Your connection is not private' when displaying the guest portal. Which issue is occurring?",
+    "options": {
+      "A": "The server that is providing the portal has an expired certificate",
+      "B": "The server that is providing the portal has a self-signed certificate",
+      "C": "The connection is using an unsupported protocol",
+      "D": "The connection is using an unsupported browser"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 102,
+    "examPart": "Exam A",
+    "question": "Which level message does the WLC send to the syslog server when Syslog Level is set to 'Errors'?",
+    "options": {
+      "A": "syslog level errors and less severity messages",
+      "B": "syslog level errors messages only",
+      "C": "all syslog levels messages",
+      "D": "syslog level errors and greater severity messages"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 103,
+    "examPart": "Exam A",
+    "question": "A client reports being unable to log into the wireless network, which uses PEAPv2. The debug output shows 'Started timer client_timeout 30 seconds' followed by 'CLIENT_WAIT_TIMEOUT' and 'Authentication failed'. Which two issues appear in the output? (Choose two.)",
+    "options": {
+      "A": "There is a problem with the client supplicant.",
+      "B": "The AP has the incorrect RADIUS server address.",
+      "C": "The AP has lost IP connectivity to the authentication server.",
+      "D": "The EAP client timeout value should be increased.",
+      "E": "The authentication server is misconfigured on the controller.",
+      "F": "The authentication server is misconfigured in the WLAN."
+    },
+    "correctAnswer": ["A", "D"],
+    "type": "multiple",
+    "category": "Wireless"
+  },
+  {
+    "id": 104,
+    "examPart": "Exam A",
+    "question": "A network engineer must configure a WLAN on a Cisco IOS-XE controller to support corporate devices (using VLAN 30) and BYOD (using VLAN 40) on the same secure SSID. The security team has built an ISE deployment to be used for VLAN assignment. Given the existing WLAN configuration, which configuration change must be made?",
+    "options": {
+      "A": "remove ip dhcp required",
+      "B": "Add aaa-override",
+      "C": "Remove nac",
+      "D": "Add mac-filtering default"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 105,
+    "examPart": "Exam A",
+    "question": "To which setting is the client limitation for WLAN LAP1 configured when Maximum Allowed Clients shows 25?",
+    "options": {
+      "A": "60",
+      "B": "1800",
+      "C": "Client exclusion is not enabled",
+      "D": "25"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 106,
+    "examPart": "Exam A",
+    "question": "During deployment, a network engineer notices that voice traffic is not being tagged correctly as it traverses the network. The COS to DSCP map shows COS 5 mapped to DSCP 45. Which COS to DSCP map must be modified to ensure that voice traffic is treated properly?",
+    "options": {
+      "A": "COS of 5 to DSCP 46",
+      "B": "COS of 7 to DSCP 48",
+      "C": "COS of 6 to DSCP 46",
+      "D": "COS of 3 to DSCP of 26"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "QoS"
+  },
+  {
+    "id": 107,
+    "examPart": "Exam A",
+    "question": "A wireless client is connecting to FlexAP1 which is currently working in standalone mode. The AAA authentication process is returning Tunnel-Private-Group-Id: 15, Tunnel-Medium-Type: IEEE-802, Tunnel-Type: VLAN. Which three behaviors will the client experience? (Choose three.)",
+    "options": {
+      "A": "While the AP is in standalone mode, the client will be placed in VLAN 15.",
+      "B": "While the AP is in standalone mode, the client will be placed in VLAN 10.",
+      "C": "When the AP transitions to connected mode, the client will be de-authenticated.",
+      "D": "While the AP is in standalone mode, the client will be placed in VLAN 13.",
+      "E": "When the AP is in connected mode, the client will be placed in VLAN 13.",
+      "F": "When the AP transitions to connected mode, the client will remain associated.",
+      "G": "When the AP is in connected mode, the client will be placed in VLAN 15.",
+      "H": "When the AP is in connected mode, the client will be placed in VLAN 10."
+    },
+    "correctAnswer": ["A", "C", "G"],
+    "type": "multiple",
+    "category": "Wireless"
+  },
+  {
+    "id": 108,
+    "examPart": "Exam A",
+    "question": "The East-WLC-2504A controller has a problem. When configuration changes are made to the Employees-East-Wing AP Group, none of the APs receive the updates. Which four changes must be made in the configuration to restore functionality? (Choose four.)",
+    "options": {
+      "A": "Change the AP in the Employees-East-Wing AP Group.",
+      "B": "Change the IP Address in the east-wing interface.",
+      "C": "Change the VLAN Identifier in the east-wing interface.",
+      "D": "Enable Dynamic AP Management in the east-wing interface.",
+      "E": "Change the Port Number to 2 in the east-wing interface.",
+      "F": "Add the Primary Controller and IP address to the 3700-East-Wing AP.",
+      "G": "Change the SSID in the Employees-East-Wing AP Group.",
+      "H": "Enable the Employees SSID"
+    },
+    "correctAnswer": ["D", "F", "G", "H"],
+    "type": "multiple",
+    "category": "Wireless"
+  },
+  {
+    "id": 109,
+    "examPart": "Exam A",
+    "question": "Which statement about when you configure FlexConnect APs and you want to set up Cisco Centralized Key Management fast roaming is true?",
+    "options": {
+      "A": "FlexConnect groups are required for Cisco Centralized Key Management fast roaming to work with FlexConnect access points.",
+      "B": "APs that are in the same FlexConnect group but associated to different WLCs support Cisco Centralized Key Management.",
+      "C": "Cisco Centralized Key Management fast roaming among FlexConnect and non-FlexConnect access points is supported.",
+      "D": "The FlexConnect access point must be in standalone mode to support Cisco Centralized Key Management."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 110,
+    "examPart": "Exam B",
+    "question": "What is the result when a technician adds the 'monitor session 1 destination remote vlan 233' command when VLAN 222 is already configured as RSPAN destination?",
+    "options": {
+      "A": "The RSPAN VLAN is replaced by VLAN 223.",
+      "B": "RSPAN traffic is sent to VLANs 222 and 223.",
+      "C": "An error is flagged for configuring two destinations.",
+      "D": "RSPAN traffic is split between VLANs 222 and 223."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 111,
+    "examPart": "Exam B",
+    "question": "An engineer is describing QoS to a client. Which two facts apply to traffic policing? (Choose two.)",
+    "options": {
+      "A": "Policing adapts to network congestion by queuing excess traffic.",
+      "B": "Policing should be performed as close to the destination as possible.",
+      "C": "Policing drops traffic that exceeds the defined rate.",
+      "D": "Policing typically delays the traffic, rather than drops it.",
+      "E": "Policing should be performed as close to the source as possible."
+    },
+    "correctAnswer": ["C", "E"],
+    "type": "multiple",
+    "category": "QoS"
+  },
+  {
+    "id": 112,
+    "examPart": "Exam B",
+    "question": "Which configuration restricts the amount of SSH that a router accepts to 100 kbps using CoPP?",
+    "options": {
+      "A": "Policy applied to interface with access-group",
+      "B": "Policy with deny tcp any any eq 22",
+      "C": "Policy applied to control-plane with service-policy input",
+      "D": "Policy applied to control-plane transit"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 113,
+    "examPart": "Exam B",
+    "question": "What are two reasons why broadcast radiation is caused in the virtual machine environment? (Choose two.)",
+    "options": {
+      "A": "vSwitch must interrupt the server CPU to process the broadcast packet.",
+      "B": "The Layer 2 domain can be large in virtual machine environments.",
+      "C": "Virtual machines communicate primarily through broadcast mode.",
+      "D": "Communication between vSwitch and network switch is broadcast based.",
+      "E": "Communication between vSwitch and network switch is multicast based."
+    },
+    "correctAnswer": ["A", "B"],
+    "type": "multiple",
+    "category": "Virtualization"
+  },
+  {
+    "id": 114,
+    "examPart": "Exam B",
+    "question": "When a wireless client roams between two different wireless controllers, a network connectivity outage is experienced for a period of time. Which configuration issue would cause this problem?",
+    "options": {
+      "A": "Not all of the controllers in the mobility group are using the same mobility group name.",
+      "B": "Not all of the controllers within the mobility group are using the same virtual interface IP address.",
+      "C": "All of the controllers within the mobility group are using the same virtual interface IP address.",
+      "D": "All of the controllers in the mobility group are using the same mobility group name."
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 115,
+    "examPart": "Exam B",
+    "question": "What does the LAP send when multiple WLCs respond to the CISCO_CAPWAP broadcast discover request?",
+    "options": {
+      "A": "broadcast discover request",
+      "B": "join request to all the WLCs",
+      "C": "unicast discovery request to each WLC",
+      "D": "Unicast discovery request to the first WLC that resolves the domain name"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 116,
+    "examPart": "Exam B",
+    "question": "Which two namespaces does the LISP network architecture and protocol use? (Choose two.)",
+    "options": {
+      "A": "TLOC",
+      "B": "RLOC",
+      "C": "DNS",
+      "D": "VTEP",
+      "E": "EID"
+    },
+    "correctAnswer": ["B", "E"],
+    "type": "multiple",
+    "category": "LISP"
+  },
+  {
+    "id": 117,
+    "examPart": "Exam B",
+    "question": "Which method of account authentication does OAuth 2.0 within REST APIs use?",
+    "options": {
+      "A": "username/role combination",
+      "B": "access tokens",
+      "C": "cookie authentication",
+      "D": "basic signature workflow"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 118,
+    "examPart": "Exam B",
+    "question": "Which DHCP option helps lightweight APs find the IP address of a wireless LAN controller?",
+    "options": {
+      "A": "Option 43",
+      "B": "Option 60",
+      "C": "Option 67",
+      "D": "Option 150"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 119,
+    "examPart": "Exam B",
+    "question": "Which feature of EIGRP is not supported in OSPF?",
+    "options": {
+      "A": "load balancing of unequal-cost paths",
+      "B": "load balancing over four equal-cost paths",
+      "C": "uses interface bandwidth to determine best path",
+      "D": "per-packet load balancing over multiple paths"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "EIGRP"
+  },
+  {
+    "id": 120,
+    "examPart": "Exam B",
+    "question": "Which protocol infers that a YANG data model is being used?",
+    "options": {
+      "A": "SNMP",
+      "B": "NX-API",
+      "C": "REST",
+      "D": "RESTCONF"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 121,
+    "examPart": "Exam B",
+    "question": "What NTP Stratum level is a server that is connected directly to an authoritative time source?",
+    "options": {
+      "A": "Stratum 0",
+      "B": "Stratum 1",
+      "C": "Stratum 14",
+      "D": "Stratum 15"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 122,
+    "examPart": "Exam B",
+    "question": "Which tool is used in Cisco DNA Center to build generic configurations that are able to be applied on devices with similar network settings?",
+    "options": {
+      "A": "Command Runner",
+      "B": "Template Editor",
+      "C": "Application Policies",
+      "D": "Authentication Template"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 123,
+    "examPart": "Exam B",
+    "question": "An engineer must ensure that all traffic leaving AS 200 will choose Link 2 as the exit point. Assuming that all BGP neighbor relationships have been formed and that the attributes have not been changed, which configuration accomplishes this task?",
+    "options": {
+      "A": "R4(config-router)#bgp default local-preference 200",
+      "B": "R3(config-router)#neighbor 10.1.1.1 weight 200",
+      "C": "R3(config-router)#bgp default local-preference 200",
+      "D": "R4(config-router)#neighbor 10.2.2.2 weight 200"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "BGP"
+  },
+  {
+    "id": 124,
+    "examPart": "Exam B",
+    "question": "Which access point mode allows a supported AP to function like a WLAN client would, associating and identifying client connectivity issues?",
+    "options": {
+      "A": "client mode",
+      "B": "SE-connect mode",
+      "C": "sensor mode",
+      "D": "sniffer mode"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 125,
+    "examPart": "Exam B",
+    "question": "Which benefit is offered by a cloud infrastructure deployment but is lacking in an on-premises deployment?",
+    "options": {
+      "A": "efficient scalability",
+      "B": "virtualization",
+      "C": "storage capacity",
+      "D": "supported systems"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 126,
+    "examPart": "Exam B",
+    "question": "In an SD-Access solution, what is the role of a fabric edge node?",
+    "options": {
+      "A": "to connect external Layer 3 networks to the SD-Access fabric",
+      "B": "to connect wired endpoints to the SD-Access fabric",
+      "C": "to advertise fabric IP address space to external networks",
+      "D": "to connect the fusion router to the SD-Access fabric"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 127,
+    "examPart": "Exam B",
+    "question": "Which component of the Cisco Cyber Threat Defense solution provides user and flow context analysis?",
+    "options": {
+      "A": "Cisco Firepower and FireSIGHT",
+      "B": "Cisco Stealthwatch system",
+      "C": "Advanced Malware Protection",
+      "D": "Cisco Web Security Appliance"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 128,
+    "examPart": "Exam B",
+    "question": "What are two device roles in Cisco SD-Access fabric? (Choose two.)",
+    "options": {
+      "A": "core switch",
+      "B": "vBond controller",
+      "C": "edge node",
+      "D": "access switch",
+      "E": "border node"
+    },
+    "correctAnswer": ["C", "E"],
+    "type": "multiple",
+    "category": "SD-Access"
+  },
+  {
+    "id": 129,
+    "examPart": "Exam B",
+    "question": "When a wired client connects to an edge switch in an SDA fabric, which component decides whether the client has access to the network?",
+    "options": {
+      "A": "control-plane node",
+      "B": "Identity Service Engine",
+      "C": "RADIUS server",
+      "D": "edge node"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 130,
+    "examPart": "Exam B",
+    "question": "What is the role of the RP in PIM sparse mode?",
+    "options": {
+      "A": "The RP responds to the PIM join messages with the source of requested multicast group.",
+      "B": "The RP maintains default aging timeouts for all multicast streams requested by the receivers.",
+      "C": "The RP acts as a control-plane node and does not receive or forward multicast packets.",
+      "D": "The RP is the multicast router that is the root of the PIM-SM shared multicast distribution tree."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Multicast"
+  },
+  {
+    "id": 131,
+    "examPart": "Exam B",
+    "question": "How does QoS traffic shaping alleviate network congestion?",
+    "options": {
+      "A": "It drops packets when traffic exceeds a certain bitrate.",
+      "B": "It buffers and queues packets above the committed rate.",
+      "C": "It fragments large packets and queues them for delivery.",
+      "D": "It drops packets randomly from lower priority queues."
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "QoS"
+  },
+  {
+    "id": 132,
+    "examPart": "Exam B",
+    "question": "Which type of antenna does the Yagi 3D radiation pattern represent?",
+    "options": {
+      "A": "Yagi",
+      "B": "multidirectional",
+      "C": "directional patch",
+      "D": "omnidirectional"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 133,
+    "examPart": "Exam B",
+    "question": "The inside and outside interfaces in the NAT configuration of this device have been correctly identified with 'ip nat inside source list 1 interface gigabitethernet0/0 overload'. What is the effect of this configuration?",
+    "options": {
+      "A": "dynamic NAT",
+      "B": "NAT64",
+      "C": "PAT",
+      "D": "static NAT"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 134,
+    "examPart": "Exam B",
+    "question": "What does the Cisco DNA Center use to enable the delivery of applications through a network and to yield analytics for innovation?",
+    "options": {
+      "A": "process adapters",
+      "B": "Command Runner",
+      "C": "intent-based APIs",
+      "D": "domain adapters"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 135,
+    "examPart": "Exam B",
+    "question": "Why is an AP joining a different WLC than the one specified through option 43?",
+    "options": {
+      "A": "The WLC is running a different software version.",
+      "B": "The AP is joining a primed WLC.",
+      "C": "The AP multicast traffic is unable to reach the WLC through Layer 3.",
+      "D": "The AP broadcast traffic is unable to reach the WLC through Layer 2."
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 136,
+    "examPart": "Exam B",
+    "question": "Assuming the WLC's interfaces are not in the same subnet as the RADIUS server and 'Radius Server Overwrite Interface' is enabled with Interface Priority set to 'WLAN', which interface would the WLC use as the source for all RADIUS-related traffic?",
+    "options": {
+      "A": "the interface specified on the WLAN configuration",
+      "B": "any interface configured on the WLC",
+      "C": "the controller management interface",
+      "D": "the controller virtual interface"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 137,
+    "examPart": "Exam B",
+    "question": "An engineer must protect their company against ransomware attacks. Which solution allows the engineer to block the execution stage and prevent file encryption?",
+    "options": {
+      "A": "Use Cisco AMP deployment with the Malicious Activity Protection engine enabled.",
+      "B": "Use Cisco AMP deployment with the Exploit Prevention engine enabled.",
+      "C": "Use Cisco Firepower and block traffic to TOR networks.",
+      "D": "Use Cisco Firepower with Intrusion Policy and snort rules blocking SMB exploitation."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 138,
+    "examPart": "Exam B",
+    "question": "Wireless users report frequent disconnections from the wireless network. The engineer notices log messages showing 'AP is down. Reason: Radio channel set'. Which action reduces the user impact?",
+    "options": {
+      "A": "increase the AP heartbeat timeout",
+      "B": "increase BandSelect",
+      "C": "enable coverage hole detection",
+      "D": "increase the dynamic channel assignment interval"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 139,
+    "examPart": "Exam B",
+    "question": "Which algorithms are used to secure REST API from brute force attacks and minimize the impact?",
+    "options": {
+      "A": "SHA-512 and SHA-384",
+      "B": "MD5 algorithm-128 and SHA-384",
+      "C": "SHA-1, SHA-256, and SHA-512",
+      "D": "PBKDF2, BCrypt, and SCrypt"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 140,
+    "examPart": "Exam B",
+    "question": "Company policy restricts VLAN 10 to be allowed only on SW1 and SW2. All other VLANs can be on all three switches. An administrator has noticed that VLAN 10 has propagated to SW3. Which configuration corrects the issue?",
+    "options": {
+      "A": "SW1(config)#int gi1/1 / switchport trunk allowed vlan 1-9,11-4094",
+      "B": "SW2(config)#int gi1/2 / switchport trunk allowed vlan 10",
+      "C": "SW2(config)#int gi1/2 / switchport trunk allowed vlan 1-9,11-4094",
+      "D": "SW1(config)#int gi1/1 / switchport trunk allowed vlan 10"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Switching"
+  },
+  {
+    "id": 141,
+    "examPart": "Exam B",
+    "question": "An engineer reconfigures the port-channel between SW1 and SW2 from an access port to a trunk and immediately notices a BPDU guard error in SW1's log. Which command set resolves this error?",
+    "options": {
+      "A": "SW1(config-if)#interface G0/0 / spanning-tree bpduguard enable / shut / no shut",
+      "B": "SW1(config-if)#interface G0/0 / no spanning-tree bpduguard enable / shut / no shut",
+      "C": "SW1(config-if)#interface G0/1 / spanning-tree bpduguard enable / shut / no shut",
+      "D": "SW1(config-if)#interface G0/0 / no spanning-tree bpdufilter / shut / no shut"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Spanning Tree Protocol"
+  },
+  {
+    "id": 142,
+    "examPart": "Exam B",
+    "question": "A company plans to implement intent-based networking in its campus infrastructure. Which design facilitates a migration from a traditional campus design to a programmable fabric design?",
+    "options": {
+      "A": "Layer 2 access",
+      "B": "three-tier",
+      "C": "two-tier",
+      "D": "routed access"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 143,
+    "examPart": "Exam B",
+    "question": "Which two entities are Type 1 hypervisors? (Choose two.)",
+    "options": {
+      "A": "Oracle VM VirtualBox",
+      "B": "Microsoft Hyper-V",
+      "C": "VMware Server",
+      "D": "VMware ESX",
+      "E": "Microsoft Virtual PC"
+    },
+    "correctAnswer": ["B", "D"],
+    "type": "multiple",
+    "category": "Virtualization"
+  },
+  {
+    "id": 144,
+    "examPart": "Exam B",
+    "question": "A network administrator applies the configuration 'aaa new-model / aaa authentication login default local group tacacs+'. What is the process of password checks when a login attempt is made to the device?",
+    "options": {
+      "A": "A TACACS+ server is checked first. If that check fails, a local database is checked.",
+      "B": "A TACACS+ server is checked first. If that check fails, a RADIUS server is checked. If that check fails, a local database is checked.",
+      "C": "A local database is checked first. If that fails, a TACACS+ server is checked. If that check fails, a RADIUS server is checked.",
+      "D": "A local database is checked first. If that check fails, a TACACS+ server is checked."
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Security"
+  },
+  {
+    "id": 145,
+    "examPart": "Exam B",
+    "question": "Which devices does Cisco DNA Center configure when deploying an IP-based Access Control policy?",
+    "options": {
+      "A": "All devices integrating with ISE",
+      "B": "selected individual devices",
+      "C": "all devices in selected sites",
+      "D": "all wired devices"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 146,
+    "examPart": "Exam B",
+    "question": "A network administrator is preparing a Python script to configure a Cisco IOS XE-based device on the network. The administrator is worried that colleagues will make changes to the device while the script is running. Which operation of the NETCONF client manager prevents colleagues from making changes to the device while the script is running?",
+    "options": {
+      "A": "m.lock(config='running')",
+      "B": "m.lock(target='running')",
+      "C": "m.freeze(target='running')",
+      "D": "m.freeze(config='running')"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Network Programmability"
+  },
+  {
+    "id": 147,
+    "examPart": "Exam B",
+    "question": "Which component handles the orchestration plane of the Cisco SD-WAN?",
+    "options": {
+      "A": "vBond",
+      "B": "vSmart",
+      "C": "vManage",
+      "D": "vEdge"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "SD-WAN"
+  },
+  {
+    "id": 148,
+    "examPart": "Exam B",
+    "question": "Which First Hop Redundancy Protocol should be used to meet a design requirement for more efficient default gateway bandwidth usage across multiple devices?",
+    "options": {
+      "A": "GLBP",
+      "B": "LACP",
+      "C": "HSRP",
+      "D": "VRRP"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "FHRP"
+  },
+  {
+    "id": 149,
+    "examPart": "Exam B",
+    "question": "A client device roams between access points located on different floors in an atrium. The access points are joined to the same controller and configured in local mode. The access points are in different IP subnets, but the client VLAN is the same. What type of roam occurs?",
+    "options": {
+      "A": "inter-controller",
+      "B": "inter-subnet",
+      "C": "intra-VLAN",
+      "D": "intra-controller"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 150,
+    "examPart": "Exam B",
+    "question": "Which action is a function of VTEP in VXLAN?",
+    "options": {
+      "A": "tunneling traffic from IPv6 to IPv4 VXLANs",
+      "B": "allowing encrypted communication on the local VXLAN Ethernet segment",
+      "C": "encapsulating and de-encapsulating VXLAN Ethernet frames",
+      "D": "tunneling traffic from IPv4 to IPv6 VXLANs"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "VXLAN"
+  },
+  {
+    "id": 151,
+    "examPart": "Exam B",
+    "question": "An engineer must deny Telnet traffic from the loopback interface of router R3 to the loopback interface of router R2 during the weekend hours. All other traffic between the loopback interfaces must be allowed at all times. Which configuration accomplishes this task?",
+    "options": {
+      "A": "time-range WEEKEND with periodic Saturday Sunday, ACL applied on R3 G0/1 out",
+      "B": "time-range WEEKEND with periodic Friday Sunday, ACL applied on R1 G0/1 in",
+      "C": "time-range WEEKEND with periodic weekend, ACL deny tcp with time-range applied on R1 G0/1 in",
+      "D": "time-range WEEKEND with periodic weekend, ACL permit tcp with time-range applied on R3 G0/1 out"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 152,
+    "examPart": "Exam B",
+    "question": "A network engineer is configuring OSPF between router R1 and router R2. The engineer must ensure that a DR/BDR election does not occur on the Gigabit Ethernet interfaces in area 0. Which configuration set accomplishes this goal?",
+    "options": {
+      "A": "ip ospf network point-to-point on both routers",
+      "B": "ip ospf network broadcast on both routers",
+      "C": "ip ospf database-filter all out on both routers",
+      "D": "ip ospf priority 1 on both routers"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "OSPF"
+  },
+  {
+    "id": 153,
+    "examPart": "Exam B",
+    "question": "What is the role of the vSmart controller in a Cisco SD-WAN environment?",
+    "options": {
+      "A": "It performs authentication and authorization.",
+      "B": "It manages the control plane.",
+      "C": "It is the centralized network management system.",
+      "D": "It manages the data plane."
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "SD-WAN"
+  },
+  {
+    "id": 154,
+    "examPart": "Exam B",
+    "question": "What mechanism does PIM use to forward multicast traffic?",
+    "options": {
+      "A": "PIM sparse mode uses a pull model to deliver multicast traffic.",
+      "B": "PIM dense mode uses a pull model to deliver multicast traffic.",
+      "C": "PIM sparse mode uses receivers to register with the RP.",
+      "D": "PIM sparse mode uses a flood and prune model to deliver multicast traffic."
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Multicast"
+  },
+  {
+    "id": 155,
+    "examPart": "Exam B",
+    "question": "Which two security features are available when implementing NTP? (Choose two.)",
+    "options": {
+      "A": "symmetric server passwords",
+      "B": "clock offset authentication",
+      "C": "broadcast association mode",
+      "D": "encrypted authentication mechanism",
+      "E": "access list-based restriction scheme"
+    },
+    "correctAnswer": ["D", "E"],
+    "type": "multiple",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 156,
+    "examPart": "Exam B",
+    "question": "What is calculated using the numerical values of the transmitter power level, cable loss, and antenna gain?",
+    "options": {
+      "A": "EIRP",
+      "B": "dBi",
+      "C": "RSSI",
+      "D": "SNR"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 157,
+    "examPart": "Exam B",
+    "question": "In a Cisco SD-WAN solution, how is the health of a data plane tunnel monitored?",
+    "options": {
+      "A": "with IP SLA",
+      "B": "ARP probing",
+      "C": "using BFD",
+      "D": "with OMP"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "SD-WAN"
+  },
+  {
+    "id": 158,
+    "examPart": "Exam B",
+    "question": "Which two LISP infrastructure elements are needed to support LISP to non-LISP internetworking? (Choose two.)",
+    "options": {
+      "A": "PETR",
+      "B": "PITR",
+      "C": "MR",
+      "D": "MS",
+      "E": "ALT"
+    },
+    "correctAnswer": ["A", "B"],
+    "type": "multiple",
+    "category": "LISP"
+  },
+  {
+    "id": 159,
+    "examPart": "Exam B",
+    "question": "In an SD-WAN deployment, which action is the vSmart controller responsible for?",
+    "options": {
+      "A": "handle, maintain, and gather configuration and status for nodes within the SD-WAN fabric",
+      "B": "distribute policies that govern data forwarding performed within the SD-WAN fabric",
+      "C": "gather telemetry data from vEdge routers",
+      "D": "onboard vEdge nodes into the SD-WAN fabric"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "SD-WAN"
+  },
+  {
+    "id": 160,
+    "examPart": "Exam B",
+    "question": "In OSPF, which LSA type is responsible for pointing to the ASBR router?",
+    "options": {
+      "A": "type 1",
+      "B": "type 2",
+      "C": "type 3",
+      "D": "type 4"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "OSPF"
+  },
+  {
+    "id": 161,
+    "examPart": "Exam B",
+    "question": "A server running Linux is providing support for virtual machines along with DNS and DHCP services for a small business. Which technology does this represent?",
+    "options": {
+      "A": "container",
+      "B": "Type 1 hypervisor",
+      "C": "hardware pass-thru",
+      "D": "Type 2 hypervisor"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Virtualization"
+  },
+  {
+    "id": 162,
+    "examPart": "Exam B",
+    "question": "Which characteristic distinguishes Ansible from Chef?",
+    "options": {
+      "A": "Ansible lacks redundancy support for the master server. Chef runs two masters in an active/active mode.",
+      "B": "Ansible uses Ruby to manage configurations. Chef uses YAML to manage configurations.",
+      "C": "Ansible pushes the configuration to the client. Chef client pulls the configuration from the server.",
+      "D": "The Ansible server can run on Linux, Unix or Windows. The Chef server must run on Linux or Unix."
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Automation"
+  },
+  {
+    "id": 163,
+    "examPart": "Exam B",
+    "question": "What is the result of applying this access control list: 'ip access-list extended STATEFUL / 10 permit tcp any any established / 20 deny ip any any'?",
+    "options": {
+      "A": "TCP traffic with the URG bit set is allowed",
+      "B": "TCP traffic with the SYN bit set is allowed",
+      "C": "TCP traffic with the ACK bit set is allowed",
+      "D": "TCP traffic with the DF bit set is allowed"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 164,
+    "examPart": "Exam B",
+    "question": "What function does VXLAN perform in an SD-Access deployment?",
+    "options": {
+      "A": "policy plane forwarding",
+      "B": "control plane forwarding",
+      "C": "data plane forwarding",
+      "D": "systems management and orchestration"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "SD-Access"
+  },
+  {
+    "id": 165,
+    "examPart": "Exam B",
+    "question": "An engineer must establish eBGP peering between router R3 and router R4. Both routers should use their loopback interfaces as the BGP router ID. Which configuration set accomplishes this task?",
+    "options": {
+      "A": "Using neighbor with physical IP and bgp router-id set to loopback IP",
+      "B": "Using neighbor with loopback IP and update-source Loopback0",
+      "C": "Using neighbor with loopback IP and update-source Loopback0 on both",
+      "D": "Using neighbor with physical IP only"
+    },
+    "correctAnswer": "A",
+    "type": "single",
+    "category": "BGP"
+  },
+  {
+    "id": 166,
+    "examPart": "Exam B",
+    "question": "A network architect has partially configured static NAT with 'ip nat inside source static 10.78.9.7 10.45.1.7'. Which commands should be added to complete the configuration?",
+    "options": {
+      "A": "ip pat outside on G0/0 and ip pat inside on G0/1",
+      "B": "ip nat outside on G0/0 and ip nat inside on G0/1",
+      "C": "ip nat inside on G0/0 and ip nat outside on G0/1",
+      "D": "ip pat inside on G0/0 and ip pat outside on G0/1"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 167,
+    "examPart": "Exam B",
+    "question": "MTU of 1500 has been configured on the underlying physical topology, and no MTU command has been configured on the tunnel interfaces. What happens when a 1500-byte IPv4 packet traverses the GRE tunnel from host X to host Y, assuming the DF bit is cleared?",
+    "options": {
+      "A": "The packet arrives on router C without fragmentation.",
+      "B": "The packet is discarded on router A.",
+      "C": "The packet is discarded on router B.",
+      "D": "The packet arrives on router C fragmented."
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "VRF, GRE, and IPsec"
+  },
+  {
+    "id": 168,
+    "examPart": "Exam B",
+    "question": "What is used to measure the total output energy of a Wi-Fi device?",
+    "options": {
+      "A": "dBi",
+      "B": "EIRP",
+      "C": "mW",
+      "D": "dBm"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Wireless"
+  },
+  {
+    "id": 169,
+    "examPart": "Exam B",
+    "question": "A client with IP address 209.165.201.25 must access a web server on port 80 at 209.165.200.225. To allow this traffic, an engineer must add a statement to an access control list that is applied in the inbound direction on the port connecting to the web server. Which statement allows this traffic?",
+    "options": {
+      "A": "permit tcp host 209.165.200.225 eq 80 host 209.165.201.25",
+      "B": "permit tcp host 209.165.201.25 host 209.165.200.225 eq 80",
+      "C": "permit tcp host 209.165.200.225 lt 80 host 209.165.201.25",
+      "D": "permit tcp host 209.165.200.225 host 209.165.201.25 eq 80"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Infrastructure"
+  },
+  {
+    "id": 170,
+    "examPart": "Drag Drop",
+    "question": "Drag and drop the descriptions from the left onto the correct QoS components on the right.",
+    "type": "dragdrop",
+    "dragItems": [
+      "causes TCP retransmissions when traffic is dropped",
+      "buffers excessive traffic",
+      "introduces delay and jitter",
+      "drops excessive traffic",
+      "introduces no delay and jitter",
+      "typically delays rather than drops traffic"
+    ],
+    "dropTargets": {
+      "Traffic Policing": [
+        "causes TCP retransmissions when traffic is dropped",
+        "drops excessive traffic",
+        "introduces no delay and jitter"
+      ],
+      "Traffic Shaping": [
+        "buffers excessive traffic",
+        "introduces delay and jitter",
+        "typically delays rather than drops traffic"
+      ]
+    },
+    "category": "QoS"
+  },
+  {
+    "id": 171,
+    "examPart": "Drag Drop",
+    "question": "Drag and drop the characteristics from the left onto the correct infrastructure deployment types on the right.",
+    "type": "dragdrop",
+    "dragItems": [
+      "customizable hardware purpose-built systems",
+      "easy to scale and upgrade",
+      "more suitable for companies with specific regulatory or security requirements",
+      "requires a strong and stable internet connection",
+      "resources can be over or underutilized as requirements vary",
+      "built-in automated data backups and recovery"
+    ],
+    "dropTargets": {
+      "On Premises": [
+        "customizable hardware purpose-built systems",
+        "more suitable for companies with specific regulatory or security requirements",
+        "resources can be over or underutilized as requirements vary"
+      ],
+      "Cloud": [
+        "easy to scale and upgrade",
+        "requires a strong and stable internet connection",
+        "built-in automated data backups and recovery"
+      ]
+    },
+    "category": "Infrastructure"
+  },
+  {
+    "id": 172,
+    "examPart": "Drag Drop",
+    "question": "Drag and drop the characteristics from the left onto the correct routing protocol types on the right.",
+    "type": "dragdrop",
+    "dragItems": [
+      "link state routing protocol",
+      "supports unequal path load balancing",
+      "makes it easy to segment the network logically",
+      "distance vector routing protocol",
+      "constructs three tables",
+      "metric is based on delay and reliability by default"
+    ],
+    "dropTargets": {
+      "OSPF": [
+        "link state routing protocol",
+        "makes it easy to segment the network logically",
+        "constructs three tables"
+      ],
+      "EIGRP": [
+        "supports unequal path load balancing",
+        "distance vector routing protocol",
+        "metric is based on delay and reliability by default"
+      ]
+    },
+    "category": "Routing"
+  },
+  {
+    "id": 173,
+    "examPart": "Drag Drop",
+    "question": "Drag and drop the descriptions from the left onto the correct routing protocols on the right.",
+    "type": "dragdrop",
+    "dragItems": [
+      "summaries can be created in specific parts of the IGP topology",
+      "DUAL algorithm",
+      "uses areas to segment a network",
+      "summaries can be created anywhere in the IGP topology"
+    ],
+    "dropTargets": {
+      "OSPF": [
+        "summaries can be created in specific parts of the IGP topology",
+        "uses areas to segment a network"
+      ],
+      "EIGRP": [
+        "DUAL algorithm",
+        "summaries can be created anywhere in the IGP topology"
+      ]
+    },
+    "category": "Routing"
+  },
+  {
+    "id": 174,
+    "examPart": "Drag Drop",
+    "question": "Drag and drop the LISP device descriptions from the left onto the correct LISP components on the right.",
+    "type": "dragdrop",
+    "dragItems": [
+      "receives encapsulated packets from ITRs",
+      "receives Map-Requests from ITRs",
+      "sends Map-Requests toward the mapping system",
+      "learns EID-to-RLOC mappings from ETRs"
+    ],
+    "dropTargets": {
+      "Map Resolver": [
+        "sends Map-Requests toward the mapping system"
+      ],
+      "Proxy ETR": [
+        "receives encapsulated packets from ITRs"
+      ],
+      "Map Server": [
+        "receives Map-Requests from ITRs",
+        "learns EID-to-RLOC mappings from ETRs"
+      ]
+    },
+    "category": "Infrastructure"
+  },
+  {
+    "id": 175,
+    "examPart": "Drag Drop",
+    "question": "Drag and drop the characteristics from the left onto the correct deployment types on the right.",
+    "type": "dragdrop",
+    "dragItems": [
+      "significant initial investment but lower reoccurring costs",
+      "very scalable and fast delivery",
+      "company has control over the physical security",
+      "physical location of data defined in contract",
+      "pay-as-you-go model"
+    ],
+    "dropTargets": {
+      "On-premises": [
+        "significant initial investment but lower reoccurring costs",
+        "company has control over the physical security"
+      ],
+      "Cloud": [
+        "very scalable and fast delivery",
+        "physical location of data defined in contract",
+        "pay-as-you-go model"
+      ]
+    },
+    "category": "Infrastructure"
+  },
+  {
+    "id": 176,
+    "examPart": "Drag Drop",
+    "question": "Drag and drop the REST API authentication methods from the left to match their descriptions on the right.",
+    "type": "dragdrop",
+    "dragItems": [
+      "HTTP basic authentication",
+      "Token-based",
+      "Secure vault",
+      "OAuth"
+    ],
+    "dropTargets": {
+      "username and password encoded using Base64": [
+        "HTTP basic authentication"
+      ],
+      "user receives a unique generated value that expires after a certain time": [
+        "Token-based"
+      ],
+      "credentials are stored in a separate external system": [
+        "Secure vault"
+      ],
+      "open standard for token-based authentication for access authorization": [
+        "OAuth"
+      ]
+    },
+    "category": "Automation"
+  },
+  {
+    "id": 177,
+    "examPart": "Drag Drop",
+    "question": "Drag and drop the QoS mechanisms from the left onto the correct descriptions on the right.",
+    "type": "dragdrop",
+    "dragItems": [
+      "service policy",
+      "shaping",
+      "DSCP",
+      "policy map",
+      "policing",
+      "CoS"
+    ],
+    "dropTargets": {
+      "Layer 2 marking": [
+        "CoS"
+      ],
+      "Layer 3 marking": [
+        "DSCP"
+      ],
+      "delays excess traffic": [
+        "shaping"
+      ],
+      "drops excess traffic": [
+        "policing"
+      ],
+      "applied to an interface": [
+        "service policy"
+      ],
+      "defines QoS actions": [
+        "policy map"
+      ]
+    },
+    "category": "QoS"
+  },
+  {
+    "id": 178,
+    "examPart": "Practice",
+    "question": "Which of the following has the lowest Administrative Distance (AD) value?",
+    "options": {
+      "A": "OSPF",
+      "B": "EIGRP Internal",
+      "C": "eBGP",
+      "D": "RIP"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "IP Routing Essentials",
+    "explanation": "AD values: eBGP=20, EIGRP Internal=90, OSPF=110, RIP=120. eBGP has the lowest AD among these options."
+  },
+  {
+    "id": 179,
+    "examPart": "Practice",
+    "question": "Given the following routing table entries, which path will be used for a packet destined to 172.16.1.100?\n\nS 172.16.0.0/16 [1/0] via 10.1.1.1\nO 172.16.1.0/24 [110/20] via 10.1.1.2\nD 172.16.0.0/16 [90/2170112] via 10.1.1.3",
+    "options": {
+      "A": "Static via 10.1.1.1",
+      "B": "OSPF via 10.1.1.2",
+      "C": "EIGRP via 10.1.1.3",
+      "D": "Load balancing across all paths"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "IP Routing Essentials",
+    "explanation": "Longest Prefix Match takes precedence over AD. The /24 OSPF route is more specific than the /16 routes, so it will be selected regardless of AD values."
+  },
+  {
+    "id": 180,
+    "examPart": "Practice",
+    "question": "How do you configure a Floating Static Route?",
+    "options": {
+      "A": "Configure a static route with a lower AD value",
+      "B": "Configure a static route with a higher AD value",
+      "C": "Configure a static route with a lower metric value",
+      "D": "Configure a static route with a higher metric value"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "IP Routing Essentials",
+    "explanation": "A Floating Static Route is configured with a higher AD value than the primary route. It remains inactive until the primary route fails."
+  },
+  {
+    "id": 181,
+    "examPart": "Practice",
+    "question": "What does the command 'ip route 0.0.0.0 0.0.0.0 192.168.1.1' accomplish?",
+    "options": {
+      "A": "Only allows traffic to 192.168.1.1",
+      "B": "Deletes all routes in the routing table",
+      "C": "Sends all packets with unknown destinations to 192.168.1.1",
+      "D": "Only allows traffic received from 192.168.1.1"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "IP Routing Essentials",
+    "explanation": "0.0.0.0 0.0.0.0 represents all networks. This is a Default Route that forwards packets with no specific match in the routing table to the specified next hop."
+  },
+  {
+    "id": 182,
+    "examPart": "Practice",
+    "question": "Why does a Connected network have an AD value of 0?",
+    "options": {
+      "A": "It is a Cisco default setting",
+      "B": "Directly connected networks are absolutely trustworthy",
+      "C": "Because no routing protocol is used",
+      "D": "Because there is no metric"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "IP Routing Essentials",
+    "explanation": "Directly connected networks are physically verifiable information on the router's interfaces. There is no more reliable source, hence AD=0."
+  },
+  {
+    "id": 183,
+    "examPart": "Practice",
+    "question": "Why is there a difference between EIGRP Internal (AD=90) and EIGRP External (AD=170)?",
+    "options": {
+      "A": "External routes are faster",
+      "B": "Internal routes are from the same EIGRP domain and are more trustworthy",
+      "C": "External routes traverse more hops",
+      "D": "It is an arbitrary Cisco configuration"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "IP Routing Essentials",
+    "explanation": "EIGRP Internal routes originate within the same EIGRP AS, while External routes are redistributed from other routing protocols. Internal routes are considered more reliable."
+  },
+  {
+    "id": 184,
+    "examPart": "Practice",
+    "question": "What is the requirement for a route to become a Feasible Successor in EIGRP?",
+    "options": {
+      "A": "FD < RD",
+      "B": "RD < FD",
+      "C": "Metrics must be equal",
+      "D": "Same AS number is required"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "EIGRP",
+    "explanation": "The Feasibility Condition requires RD (Reported Distance) < FD (Feasible Distance). This ensures loop-free backup paths."
+  },
+  {
+    "id": 185,
+    "examPart": "Practice",
+    "question": "Which EIGRP packets require reliable delivery? (Choose all that apply)",
+    "options": {
+      "A": "Hello",
+      "B": "Update",
+      "C": "Query",
+      "D": "ACK",
+      "E": "Reply"
+    },
+    "correctAnswer": ["B", "C", "E"],
+    "type": "multiple",
+    "category": "EIGRP",
+    "explanation": "Update, Query, and Reply packets require reliable delivery with ACK. Hello and ACK packets are sent unreliably."
+  },
+  {
+    "id": 186,
+    "examPart": "Practice",
+    "question": "Which two factors are used by default in EIGRP metric calculation? (Choose two)",
+    "options": {
+      "A": "Bandwidth",
+      "B": "Load",
+      "C": "Delay",
+      "D": "Reliability",
+      "E": "MTU"
+    },
+    "correctAnswer": ["A", "C"],
+    "type": "multiple",
+    "category": "EIGRP",
+    "explanation": "Default K values are K1=1, K2=0, K3=1, K4=0, K5=0. Only Bandwidth (K1) and Delay (K3) are used by default."
+  },
+  {
+    "id": 187,
+    "examPart": "Practice",
+    "question": "Which statement about EIGRP Unequal Cost Load Balancing is correct?",
+    "options": {
+      "A": "All routes automatically participate in load balancing",
+      "B": "Configured with the variance command; only FS routes with metric <= FD × variance participate",
+      "C": "Routes can participate without meeting the Feasibility Condition",
+      "D": "OSPF provides the same functionality"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "EIGRP",
+    "explanation": "EIGRP Unequal Cost Load Balancing requires: 1) Route must be a Feasible Successor (RD < FD), 2) Metric must be <= FD × variance. OSPF only supports Equal Cost Load Balancing."
+  },
+  {
+    "id": 188,
+    "examPart": "Practice",
+    "question": "When does the EIGRP 'Stuck In Active (SIA)' problem occur?",
+    "options": {
+      "A": "When Hello packets are not received",
+      "B": "When Update packets are lost",
+      "C": "When Reply to a Query is not received within the timer",
+      "D": "When metrics change"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "EIGRP",
+    "explanation": "When a Successor is lost and no FS exists, the router goes Active and sends Queries. If Replies are not received from all neighbors within the SIA timer (default 3 minutes), SIA occurs and neighbor relationships are reset."
+  },
+  {
+    "id": 189,
+    "examPart": "Practice",
+    "question": "Router A has the following topology table. Which routes qualify as Feasible Successors?\n\nDestination: 10.1.1.0/24\nCurrent FD: 30,000\n\nRoute 1: via R1, RD = 25,000, Metric = 35,000\nRoute 2: via R2, RD = 20,000, Metric = 40,000\nRoute 3: via R3, RD = 35,000, Metric = 45,000",
+    "options": {
+      "A": "R1 only",
+      "B": "R2 only",
+      "C": "R1 and R2",
+      "D": "R1, R2, and R3"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "EIGRP",
+    "explanation": "Feasibility Condition: RD < FD (30,000). R1: RD=25,000 < 30,000 (FS). R2: RD=20,000 < 30,000 (FS). R3: RD=35,000 > 30,000 (Not FS)."
+  },
+  {
+    "id": 190,
+    "examPart": "Practice",
+    "question": "What are the default Hello and Dead intervals for OSPF?",
+    "options": {
+      "A": "Hello 5 seconds, Dead 15 seconds",
+      "B": "Hello 10 seconds, Dead 40 seconds",
+      "C": "Hello 30 seconds, Dead 120 seconds",
+      "D": "Hello 60 seconds, Dead 180 seconds"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "OSPF",
+    "explanation": "OSPF defaults: Hello Interval = 10 seconds, Dead Interval = 40 seconds (4x Hello). On NBMA networks, Hello is 30 seconds and Dead is 120 seconds."
+  },
+  {
+    "id": 191,
+    "examPart": "Practice",
+    "question": "At which OSPF neighbor state does DR/BDR election occur?",
+    "options": {
+      "A": "Init",
+      "B": "2-Way",
+      "C": "ExStart",
+      "D": "Full"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "OSPF",
+    "explanation": "At the 2-Way state, mutual recognition is complete. On multi-access networks, DR/BDR election occurs at this stage before proceeding to database synchronization."
+  },
+  {
+    "id": 192,
+    "examPart": "Practice",
+    "question": "When two OSPF routers are stuck in ExStart or Exchange state, what should be checked first?",
+    "options": {
+      "A": "Area ID",
+      "B": "MTU settings",
+      "C": "Hello Interval",
+      "D": "Router ID"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "OSPF",
+    "explanation": "The most common cause of being stuck in ExStart/Exchange state is MTU mismatch. During DBD packet exchange, mismatched MTUs prevent proper transmission. Solution: Match MTUs or use 'ip ospf mtu-ignore'."
+  },
+  {
+    "id": 193,
+    "examPart": "Practice",
+    "question": "Which router generates Type 3 LSA (Summary LSA)?",
+    "options": {
+      "A": "All OSPF routers",
+      "B": "DR only",
+      "C": "ABR only",
+      "D": "ASBR only"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "OSPF",
+    "explanation": "LSA generators: Type 1 - All routers, Type 2 - DR, Type 3 & 4 - ABR, Type 5 - ASBR. Type 3 (Summary LSA) carries inter-area network information, generated by ABRs."
+  },
+  {
+    "id": 194,
+    "examPart": "Practice",
+    "question": "Which statement about OSPF DR election is correct?",
+    "options": {
+      "A": "The router with the lowest Priority becomes DR",
+      "B": "A new router with higher Priority will replace the current DR",
+      "C": "A router with Priority 0 can become DR",
+      "D": "If Priorities are equal, the router with higher Router ID becomes DR"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "OSPF",
+    "explanation": "DR election rules: 1) Highest Priority (0-255, default 1), 2) If Priority is equal, highest Router ID. Note: Priority 0 means the router cannot participate in election, and election is non-preemptive."
+  },
+  {
+    "id": 195,
+    "examPart": "Practice",
+    "question": "What is the OSPF cost for a GigabitEthernet interface when Reference Bandwidth is 10000 Mbps?",
+    "options": {
+      "A": "1",
+      "B": "10",
+      "C": "100",
+      "D": "1000"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "OSPF",
+    "explanation": "Cost = Reference Bandwidth / Interface Bandwidth = 10000 Mbps / 1000 Mbps = 10."
+  },
+  {
+    "id": 196,
+    "examPart": "Practice",
+    "question": "Which statement about Stub Area is correct?",
+    "options": {
+      "A": "Type 3 LSA is blocked",
+      "B": "Type 5 LSA is blocked",
+      "C": "Can have an ASBR",
+      "D": "Only the ABR needs stub configuration"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Advanced OSPF",
+    "explanation": "Stub Area characteristics: Type 5 (External LSA) is blocked, Type 3 (Summary LSA) is allowed, cannot have an ASBR, all routers in the area must be configured as stub."
+  },
+  {
+    "id": 197,
+    "examPart": "Practice",
+    "question": "What LSA type is used to advertise external routes in an NSSA?",
+    "options": {
+      "A": "Type 3",
+      "B": "Type 4",
+      "C": "Type 5",
+      "D": "Type 7"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Advanced OSPF",
+    "explanation": "In NSSA, the ASBR advertises external routes using Type 7 LSA. The ABR converts Type 7 to Type 5 when propagating to other areas."
+  },
+  {
+    "id": 198,
+    "examPart": "Practice",
+    "question": "Which area type cannot be used as a Transit Area for Virtual Links?",
+    "options": {
+      "A": "Normal Area",
+      "B": "NSSA",
+      "C": "Stub Area",
+      "D": "Totally NSSA"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Advanced OSPF",
+    "explanation": "Stub Area blocks Type 5 LSA, so it cannot be used as a Transit Area for Virtual Links. Virtual Links are an extension of Area 0 and require Type 5 LSA propagation."
+  },
+  {
+    "id": 199,
+    "examPart": "Practice",
+    "question": "What is the difference between OSPF External route types E1 and E2?",
+    "options": {
+      "A": "E1 only considers Internal Cost",
+      "B": "E2 adds External Cost + Internal Cost",
+      "C": "E1 adds External Cost + Internal Cost",
+      "D": "E1 and E2 operate identically"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Advanced OSPF",
+    "explanation": "E1: External Cost + Internal Cost (considers distance to ASBR). E2: External Cost only (fixed, default). E1 prefers paths closer to the ASBR."
+  },
+  {
+    "id": 200,
+    "examPart": "Practice",
+    "question": "What command is used on the ABR to configure a Totally Stubby Area?",
+    "options": {
+      "A": "area 1 stub",
+      "B": "area 1 stub no-summary",
+      "C": "area 1 nssa",
+      "D": "area 1 totally-stub"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Advanced OSPF",
+    "explanation": "Totally Stubby Area: Internal routers use 'area 1 stub', ABR uses 'area 1 stub no-summary'. The no-summary option also blocks Type 3 LSAs."
+  },
+  {
+    "id": 201,
+    "examPart": "Practice",
+    "question": "Which statement about NSSA is incorrect?",
+    "options": {
+      "A": "Type 5 LSA is blocked",
+      "B": "Default route is automatically injected",
+      "C": "Can have an ASBR",
+      "D": "Uses Type 7 LSA"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Advanced OSPF",
+    "explanation": "Unlike Stub, NSSA does not automatically inject a default route. To inject a default route, use: 'area 1 nssa default-information-originate'."
+  },
+  {
+    "id": 202,
+    "examPart": "Practice",
+    "question": "What type of address does OSPFv3 use to form neighbor relationships?",
+    "options": {
+      "A": "Global Unicast address",
+      "B": "Unique Local address",
+      "C": "Link-Local address",
+      "D": "Multicast address"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "OSPFv3",
+    "explanation": "OSPFv3 uses Link-Local addresses (FE80::/10) to form neighbor relationships. Link-Local addresses are automatically generated on every IPv6 interface."
+  },
+  {
+    "id": 203,
+    "examPart": "Practice",
+    "question": "Which LSA types are new in OSPFv3? (Choose two)",
+    "options": {
+      "A": "Type 6",
+      "B": "Type 7",
+      "C": "Type 8",
+      "D": "Type 9"
+    },
+    "correctAnswer": ["C", "D"],
+    "type": "multiple",
+    "category": "OSPFv3",
+    "explanation": "Type 8 (Link LSA) carries Link-Local address information. Type 9 (Intra-Area Prefix LSA) carries IPv6 prefix information. Type 7 (NSSA External) exists in OSPFv2 as well."
+  },
+  {
+    "id": 204,
+    "examPart": "Practice",
+    "question": "How is the Router ID determined for an OSPFv3 router without IPv4 addresses?",
+    "options": {
+      "A": "Automatically generated from IPv6 address",
+      "B": "Must be manually configured",
+      "C": "Not required",
+      "D": "Set to 0.0.0.0"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "OSPFv3",
+    "explanation": "OSPFv3 still uses 32-bit IPv4 format for Router ID. Without IPv4 addresses, the Router ID cannot be automatically determined and must be manually configured using 'router-id x.x.x.x'."
+  },
+  {
+    "id": 205,
+    "examPart": "Practice",
+    "question": "What command enables OSPFv3 on an interface?",
+    "options": {
+      "A": "network 2001:db8::/64 area 0",
+      "B": "ipv6 ospf 1 area 0",
+      "C": "ipv6 router ospf 1",
+      "D": "ospf ipv6 area 0"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "OSPFv3",
+    "explanation": "OSPFv3 does not have a network command. OSPF is enabled directly on the interface using 'ipv6 ospf [process-id] area [area-id]'."
+  },
+  {
+    "id": 206,
+    "examPart": "Practice",
+    "question": "What is the OSPFv3 All OSPF Routers multicast address?",
+    "options": {
+      "A": "224.0.0.5",
+      "B": "224.0.0.6",
+      "C": "FF02::5",
+      "D": "FF02::6"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "OSPFv3",
+    "explanation": "OSPFv3 multicast addresses: All OSPF Routers = FF02::5, All DR/BDR = FF02::6. These are equivalent to OSPFv2's 224.0.0.5 and 224.0.0.6."
+  },
+  {
+    "id": 207,
+    "examPart": "Practice",
+    "question": "What protocol does OSPFv3 use for authentication?",
+    "options": {
+      "A": "MD5",
+      "B": "SHA-256",
+      "C": "IPsec",
+      "D": "Plain Text"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "OSPFv3",
+    "explanation": "OSPFv3 uses IPsec instead of OSPF-native authentication (MD5, Plain Text). IPsec provides stronger security using AH or ESP."
+  },
+  {
+    "id": 208,
+    "examPart": "Practice",
+    "question": "What are the correct Administrative Distance values for eBGP and iBGP?",
+    "options": {
+      "A": "eBGP: 90, iBGP: 170",
+      "B": "eBGP: 20, iBGP: 200",
+      "C": "eBGP: 110, iBGP: 115",
+      "D": "eBGP: 200, iBGP: 20"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "BGP",
+    "explanation": "eBGP AD = 20 (external information is considered reliable), iBGP AD = 200 (IGP within the same AS might be more accurate)."
+  },
+  {
+    "id": 209,
+    "examPart": "Practice",
+    "question": "What transport protocol and port number does BGP use?",
+    "options": {
+      "A": "UDP 179",
+      "B": "TCP 179",
+      "C": "UDP 520",
+      "D": "TCP 520"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "BGP",
+    "explanation": "BGP uses TCP port 179. Using TCP ensures reliable transmission of BGP updates."
+  },
+  {
+    "id": 210,
+    "examPart": "Practice",
+    "question": "Which BGP Path Attributes are preferred when higher? (Choose two)",
+    "options": {
+      "A": "AS-Path",
+      "B": "Local Preference",
+      "C": "MED",
+      "D": "Weight"
+    },
+    "correctAnswer": ["B", "D"],
+    "type": "multiple",
+    "category": "BGP",
+    "explanation": "AS-Path: shorter is preferred. Local Preference: higher is preferred. MED: lower is preferred. Weight: higher is preferred."
+  },
+  {
+    "id": 211,
+    "examPart": "Practice",
+    "question": "What command resolves the iBGP next-hop not changing issue?",
+    "options": {
+      "A": "neighbor x.x.x.x next-hop-change",
+      "B": "neighbor x.x.x.x next-hop-self",
+      "C": "neighbor x.x.x.x update-source",
+      "D": "neighbor x.x.x.x ebgp-multihop"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "BGP",
+    "explanation": "In iBGP, the next-hop is not changed by default, which can cause reachability issues. The 'next-hop-self' command sets the local router's address as the next-hop."
+  },
+  {
+    "id": 212,
+    "examPart": "Practice",
+    "question": "What does the BGP network command do?",
+    "options": {
+      "A": "Enables BGP on the interface",
+      "B": "Advertises the network via BGP",
+      "C": "Learns routes to the network",
+      "D": "Automatically discovers neighbors for the network"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "BGP",
+    "explanation": "BGP's network command is different from OSPF's. OSPF: 'enable OSPF on interface'. BGP: 'advertise this network'. The network must exist exactly in the routing table."
+  },
+  {
+    "id": 213,
+    "examPart": "Practice",
+    "question": "Why is iBGP Full Mesh required?",
+    "options": {
+      "A": "For faster convergence",
+      "B": "Because routes learned via iBGP are not forwarded to other iBGP peers",
+      "C": "To connect with eBGP peers",
+      "D": "To propagate AS-Path"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "BGP",
+    "explanation": "iBGP loop prevention rule: Routes learned from an iBGP peer are not forwarded to another iBGP peer. Therefore, all iBGP routers must be directly connected (Full Mesh). This can be solved with Route Reflector or Confederation."
+  },
+  {
+    "id": 214,
+    "examPart": "Practice",
+    "question": "What is the first attribute compared in BGP Path Selection?",
+    "options": {
+      "A": "Local Preference",
+      "B": "AS-Path",
+      "C": "Weight",
+      "D": "MED"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Advanced BGP",
+    "explanation": "BGP Path Selection order: Weight → Local Preference → Locally originated → AS-Path → Origin → MED → eBGP > iBGP → IGP metric → Router ID. Weight is Cisco proprietary and only affects the local router."
+  },
+  {
+    "id": 215,
+    "examPart": "Practice",
+    "question": "What configuration is required on a Route Reflector Client?",
+    "options": {
+      "A": "neighbor x.x.x.x route-reflector-client",
+      "B": "bgp route-reflector client",
+      "C": "neighbor x.x.x.x reflector",
+      "D": "No configuration required"
+    },
+    "correctAnswer": "D",
+    "type": "single",
+    "category": "Advanced BGP",
+    "explanation": "Route Reflector configuration is only done on the RR itself. The client requires no special configuration. On the RR: 'neighbor x.x.x.x route-reflector-client'."
+  },
+  {
+    "id": 216,
+    "examPart": "Practice",
+    "question": "What technique makes a route less preferred by lengthening the AS-Path?",
+    "options": {
+      "A": "AS-Path filter",
+      "B": "AS-Path prepend",
+      "C": "AS-Path deny",
+      "D": "AS-Path summarize"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Advanced BGP",
+    "explanation": "AS-Path prepend adds the local AS number multiple times to make the AS-Path longer. Longer AS-Path makes the route less preferred in path selection."
+  },
+  {
+    "id": 217,
+    "examPart": "Practice",
+    "question": "Which BGP attribute is NOT preferred when higher?",
+    "options": {
+      "A": "Weight",
+      "B": "Local Preference",
+      "C": "MED",
+      "D": "All are preferred when higher"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Advanced BGP",
+    "explanation": "Weight: higher is preferred. Local Preference: higher is preferred. MED: lower is preferred. AS-Path: shorter is preferred."
+  },
+  {
+    "id": 218,
+    "examPart": "Practice",
+    "question": "What does the Prefix List entry '0.0.0.0/0 le 32' match?",
+    "options": {
+      "A": "Default route only",
+      "B": "/32 networks only",
+      "C": "All networks",
+      "D": "0.0.0.0 network only"
+    },
+    "correctAnswer": "C",
+    "type": "single",
+    "category": "Advanced BGP",
+    "explanation": "'0.0.0.0/0 le 32' matches all routes (from /0 to /32). 0.0.0.0/0 = base of all networks, le 32 = prefix length up to /32 (all prefix lengths)."
+  },
+  {
+    "id": 219,
+    "examPart": "Practice",
+    "question": "Which BGP Community means 'do not advertise via eBGP'?",
+    "options": {
+      "A": "no-advertise",
+      "B": "no-export",
+      "C": "local-as",
+      "D": "internet"
+    },
+    "correctAnswer": "B",
+    "type": "single",
+    "category": "Advanced BGP",
+    "explanation": "no-export: Do not advertise via eBGP. no-advertise: Do not advertise to any peer. local-as: Do not advertise outside the Confederation. internet: Advertise without restrictions."
+  }
+]
