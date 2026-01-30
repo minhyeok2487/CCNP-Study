@@ -31,7 +31,7 @@ export async function POST(request: NextRequest) {
 
     // Read file content
     const bytes = await file.arrayBuffer();
-    const _buffer = Buffer.from(bytes);
+    // const buffer = Buffer.from(bytes);
 
     // For server-side PDF parsing, you would use pdf-parse
     // This is a placeholder that shows the expected structure

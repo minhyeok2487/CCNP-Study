@@ -28,7 +28,6 @@ function QuizContent() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, string | string[]>>({});
   const [showResult, setShowResult] = useState(false);
-  const [, setQuizComplete] = useState(false);
 
   useEffect(() => {
     let selectedQuestions: Question[] = [];
